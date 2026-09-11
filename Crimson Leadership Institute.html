@@ -1206,195 +1206,7 @@
       font-family: var(--font-sans);
     }
 
-    /* Section 05: Animated Governance Network Assembly (14 Members) */
-    .governance-assembly-section {
-      margin-top: 60px;
-      padding-top: 48px;
-      border-top: 1px solid var(--rule);
-    }
 
-    .assembly-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-      margin-bottom: 28px;
-      flex-wrap: wrap;
-      gap: 16px;
-    }
-
-    .assembly-kicker {
-      font-family: var(--font-cinzel);
-      font-size: 0.76rem;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--crimson-imperial);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 6px;
-      font-weight: 600;
-    }
-
-    .assembly-kicker::before {
-      content: '';
-      width: 18px;
-      height: 1px;
-      background: var(--gold);
-    }
-
-    .assembly-title {
-      font-family: var(--font-display);
-      font-size: 1.95rem;
-      color: var(--ink);
-      font-weight: 500;
-      letter-spacing: -0.01em;
-    }
-
-    .assembly-filters {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .assembly-filter-btn {
-      font-family: var(--font-cinzel);
-      font-size: 0.72rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      padding: 7px 16px;
-      border: 1px solid var(--rule);
-      background: var(--warmwhite);
-      color: var(--charcoal);
-      border-radius: 2px;
-      transition: var(--transition-smooth);
-      cursor: pointer;
-    }
-
-    .assembly-filter-btn:hover {
-      background: #FFFFFF;
-      border-color: var(--gold);
-      color: var(--crimson-imperial);
-      transform: translateY(-1px);
-    }
-
-    .assembly-filter-btn.active {
-      background: var(--crimson-imperial);
-      color: var(--warmwhite);
-      border-color: var(--crimson-imperial);
-      box-shadow: 0 4px 16px rgba(110, 20, 35, 0.25);
-    }
-
-    .assembly-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-    }
-
-    @media (max-width: 1024px) {
-      .assembly-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-
-    @media (max-width: 600px) {
-      .assembly-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    .assembly-card {
-      background: #FFFFFF;
-      border: 1px solid var(--rule);
-      padding: 24px 26px;
-      position: relative;
-      overflow: hidden;
-      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.02);
-      animation: assemblyCardFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) backwards;
-    }
-
-    @keyframes assemblyCardFadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(14px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    .assembly-card::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      width: 3px;
-      background: linear-gradient(180deg, var(--gold), var(--crimson-imperial));
-      opacity: 0.35;
-      transition: opacity 0.3s ease, width 0.3s ease;
-    }
-
-    .assembly-card:hover {
-      transform: translateY(-5px);
-      border-color: var(--gold);
-      box-shadow: 0 16px 36px rgba(110, 20, 35, 0.12), 0 0 0 1px rgba(197, 160, 89, 0.35);
-    }
-
-    .assembly-card:hover::after {
-      opacity: 1;
-      width: 4px;
-    }
-
-    .assembly-card-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 12px;
-    }
-
-    .assembly-region-tag {
-      font-family: var(--font-mono);
-      font-size: 0.7rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--gold-deep);
-    }
-
-    .assembly-dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--crimson-imperial);
-      box-shadow: 0 0 8px rgba(110, 20, 35, 0.4);
-      animation: pulseAssemblyDot 2.4s ease-in-out infinite;
-    }
-
-    @keyframes pulseAssemblyDot {
-      0%, 100% { transform: scale(1); opacity: 0.5; }
-      50% { transform: scale(1.35); opacity: 1; box-shadow: 0 0 12px rgba(110, 20, 35, 0.7); }
-    }
-
-    .assembly-name {
-      font-family: var(--font-display);
-      font-size: 1.55rem;
-      color: var(--ink);
-      font-weight: 500;
-      line-height: 1.2;
-      margin-bottom: 6px;
-      letter-spacing: -0.01em;
-    }
-
-    .assembly-detail {
-      font-size: 0.88rem;
-      color: var(--body-muted);
-      line-height: 1.5;
-    }
-
-    .assembly-card.hidden {
-      display: none !important;
-    }
 
     /* ---------- 03: VENTURES (CRIMSON HOLDING) ---------- */
     .ventures-section {
@@ -1656,241 +1468,6 @@
       letter-spacing: 0.04em;
     }
 
-    /* Milken-Style Program Architecture & Pillar Tracks */
-    .summit-architecture {
-      margin-top: 60px;
-      padding-top: 50px;
-      border-top: 1px solid rgba(239, 232, 220, 0.2);
-    }
-
-    .architecture-title {
-      font-family: var(--font-cinzel);
-      font-size: 0.82rem;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--gold-light);
-      margin-bottom: 24px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .architecture-title::before {
-      content: '';
-      width: 20px;
-      height: 1px;
-      background: var(--gold);
-    }
-
-    .program-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-      margin-bottom: 40px;
-    }
-
-    @media (max-width: 960px) {
-      .program-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    .program-card {
-      background: rgba(11, 13, 19, 0.35);
-      border: 1px solid rgba(226, 199, 142, 0.28);
-      padding: 32px 28px;
-      position: relative;
-      backdrop-filter: blur(8px);
-      transition: var(--transition-smooth);
-      display: flex;
-      flex-direction: column;
-    }
-
-    .program-card:hover {
-      background: rgba(11, 13, 19, 0.55);
-      border-color: var(--gold);
-      transform: translateY(-3px);
-      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
-    }
-
-    .program-badge {
-      font-family: var(--font-mono);
-      font-size: 0.74rem;
-      letter-spacing: 0.14em;
-      color: var(--gold-light);
-      text-transform: uppercase;
-      margin-bottom: 14px;
-      display: inline-block;
-    }
-
-    .program-card h4 {
-      font-family: var(--font-display);
-      font-size: 1.55rem;
-      color: var(--warmwhite);
-      margin-bottom: 12px;
-      line-height: 1.25;
-      font-weight: 500;
-    }
-
-    .program-card p {
-      font-size: 0.92rem;
-      color: rgba(239, 232, 220, 0.82);
-      line-height: 1.65;
-      margin-bottom: 18px;
-      flex-grow: 1;
-    }
-
-    .program-highlights {
-      list-style: none;
-      border-top: 1px solid rgba(239, 232, 220, 0.12);
-      padding-top: 14px;
-    }
-
-    .program-highlights li {
-      font-size: 0.85rem;
-      color: rgba(239, 232, 220, 0.75);
-      padding: 4px 0;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .program-highlights li::before {
-      content: '•';
-      color: var(--gold);
-    }
-
-    /* 5 Closed-Door Pillar Tracks */
-    .pillars-container {
-      margin-top: 36px;
-      background: rgba(11, 13, 19, 0.28);
-      border: 1px solid rgba(226, 199, 142, 0.22);
-      padding: 30px;
-    }
-
-    .pillars-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    .pillars-header h4 {
-      font-family: var(--font-display);
-      font-size: 1.35rem;
-      color: var(--warmwhite);
-      font-weight: 500;
-    }
-
-    .pillars-header span {
-      font-family: var(--font-mono);
-      font-size: 0.75rem;
-      color: var(--gold-light);
-      letter-spacing: 0.08em;
-    }
-
-    .pillars-grid {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 14px;
-    }
-
-    @media (max-width: 1024px) {
-      .pillars-grid {
-        grid-template-columns: repeat(3, 1fr);
-      }
-    }
-
-    @media (max-width: 680px) {
-      .pillars-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    .pillar-card {
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid rgba(226, 199, 142, 0.2);
-      padding: 18px 16px;
-      transition: var(--transition-smooth);
-    }
-
-    .pillar-card:hover {
-      background: rgba(255, 255, 255, 0.08);
-      border-color: var(--gold);
-    }
-
-    .pillar-num {
-      font-family: var(--font-mono);
-      font-size: 0.7rem;
-      color: var(--gold);
-      margin-bottom: 8px;
-    }
-
-    .pillar-name {
-      font-family: var(--font-cinzel);
-      font-size: 0.8rem;
-      color: var(--warmwhite);
-      letter-spacing: 0.04em;
-      line-height: 1.4;
-      font-weight: 600;
-    }
-
-    .pillar-focus {
-      font-size: 0.78rem;
-      color: rgba(239, 232, 220, 0.65);
-      margin-top: 6px;
-      line-height: 1.4;
-    }
-
-    /* Venue & Government Alignment Callout */
-    .venue-alignment-box {
-      margin-top: 36px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 30px;
-      background: rgba(11, 13, 19, 0.4);
-      border: 1px solid var(--gold-border);
-      padding: 24px 32px;
-      flex-wrap: wrap;
-    }
-
-    .venue-left {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-    }
-
-    .venue-icon {
-      width: 42px;
-      height: 42px;
-      border: 1px solid var(--gold);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--gold-light);
-      font-size: 1.1rem;
-      flex-shrink: 0;
-    }
-
-    .venue-text h5 {
-      font-family: var(--font-cinzel);
-      font-size: 0.84rem;
-      color: var(--warmwhite);
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      margin-bottom: 4px;
-    }
-
-    .venue-text p {
-      font-size: 0.92rem;
-      color: rgba(239, 232, 220, 0.8);
-      line-height: 1.5;
-    }
-
     /* ---------- 05: GOVERNANCE / FOUNDING OFFICE ---------- */
     .founder-grid {
       display: grid;
@@ -2014,6 +1591,173 @@
       font-size: 0.78rem;
       color: var(--body-muted);
       letter-spacing: 0.04em;
+    }
+
+    /* Chartered Appointments inside Governance Section (05) */
+    .governance-advisors-wrap {
+      margin-top: 26px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(197, 160, 89, 0.25);
+    }
+
+    .gov-advisors-label {
+      font-family: var(--font-cinzel);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--crimson-imperial);
+      margin-bottom: 14px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .gov-advisors-label::before {
+      content: '';
+      width: 14px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    .gov-advisors-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    @media (max-width: 680px) {
+      .gov-advisors-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .gov-advisor-card {
+      background: #FFFFFF;
+      border: 1px solid var(--gold-border);
+      padding: 20px 22px;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.02);
+      animation: govCardEntrance 0.75s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+    }
+
+    @keyframes govCardEntrance {
+      0% {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Animated Ribbon Accent */
+    .gov-advisor-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--crimson-imperial), var(--gold-light), var(--crimson-vivid), var(--gold));
+      background-size: 300% 100%;
+      animation: govAccentShimmer 5s ease infinite;
+    }
+
+    @keyframes govAccentShimmer {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Sheen Sweep on Hover */
+    .gov-advisor-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -120%;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+      transform: skewX(-25deg);
+      transition: left 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+      pointer-events: none;
+    }
+
+    .gov-advisor-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
+      box-shadow: 0 14px 32px rgba(110, 20, 35, 0.12), 0 0 0 1px rgba(197, 160, 89, 0.4);
+    }
+
+    .gov-advisor-card:hover::after {
+      left: 160%;
+    }
+
+    .gov-advisor-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .gov-advisor-region {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold-deep);
+      font-weight: 500;
+    }
+
+    .gov-advisor-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--crimson-imperial);
+      box-shadow: 0 0 8px rgba(110, 20, 35, 0.5);
+      animation: pulseDotBeacon 2.2s ease-in-out infinite;
+    }
+
+    @keyframes pulseDotBeacon {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 0.55;
+        box-shadow: 0 0 6px rgba(110, 20, 35, 0.4);
+      }
+      50% {
+        transform: scale(1.35);
+        opacity: 1;
+        box-shadow: 0 0 12px rgba(110, 20, 35, 0.8);
+      }
+    }
+
+    .gov-advisor-name {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      color: var(--ink);
+      line-height: 1.2;
+      margin-bottom: 4px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      transition: color 0.3s ease;
+    }
+
+    .gov-advisor-card:hover .gov-advisor-name {
+      color: var(--crimson-deep);
+    }
+
+    .gov-advisor-role {
+      font-family: var(--font-cinzel);
+      font-size: 0.78rem;
+      color: var(--crimson-imperial);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      font-weight: 600;
+      line-height: 1.35;
     }
 
     /* ---------- 06: FOOTER & CORRESPONDENCE ---------- */
@@ -2485,26 +2229,6 @@
         </div>
       </div>
 
-      <!-- Chartered Advisory Leadership: Alberto Righini & Max -->
-      <div class="network-featured-wrap">
-        <div class="featured-leader-card">
-          <div class="featured-kicker">Chartered Advisor • Milan</div>
-          <h3 class="featured-leader-name">Alberto Righini</h3>
-          <div class="featured-leader-role">Founder, Flash Models Milan (1985)</div>
-          <div class="featured-leader-meta">
-            Four decades of international fashion industry leadership and European talent curation, anchoring the Institute's continental network and creative cultural platforms from Milan.
-          </div>
-        </div>
-
-        <div class="featured-leader-card">
-          <div class="featured-kicker">Chartered Advisor • Italy</div>
-          <h3 class="featured-leader-name">Max</h3>
-          <div class="featured-leader-role">Show Production, Italy</div>
-          <div class="featured-leader-meta">
-            International show production architect directing luxury gala staging, high-fashion runway architectures, and diplomatic cultural events across Italy and European centers.
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -2597,103 +2321,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Milken-Style Program Architecture & 5 Closed-Door Pillar Tracks -->
-      <div class="summit-architecture">
-        <div class="architecture-title">Convening Architecture &amp; Program Structure</div>
-        
-        <div class="program-grid">
-          <!-- Day 01 -->
-          <div class="program-card">
-            <span class="program-badge">Day 01 • Convening Proper</span>
-            <h4>Summit Proper &amp; National Pavilions</h4>
-            <p>Day One opens with the summit proper and national pavilions, establishing bilateral diplomatic channels and multi-jurisdiction leadership dialogues.</p>
-            <ul class="program-highlights">
-              <li>Ministerial &amp; Sovereign Opening Assembly</li>
-              <li>National Pavilions &amp; Trade Delegations</li>
-              <li>Plenary Sessions on Institutional Longevity</li>
-            </ul>
-          </div>
-
-          <!-- Day 02 -->
-          <div class="program-card">
-            <span class="program-badge">Day 02 • Closed-Door Dialogue</span>
-            <h4>Five Closed-Door Pillar Tracks</h4>
-            <p>Day Two runs five closed-door pillar tracks for focused, high-trust dialogue between sovereign leaders, enterprise governors, and capital allocators.</p>
-            <ul class="program-highlights">
-              <li>Chatham House High-Trust Format</li>
-              <li>Direct Advisory &amp; Capital Structuring</li>
-              <li>Cross-Regional Operating Accord Charters</li>
-            </ul>
-          </div>
-
-          <!-- Day 03 -->
-          <div class="program-card">
-            <span class="program-badge">Day 03 • Flagship Evening</span>
-            <h4>The Crimson Gala Evening</h4>
-            <p>Day Three closes with a gala evening, positioned against benchmarks including the Milken Institute Asia Summit, FII Riyadh, and amfAR Gala Cannes.</p>
-            <ul class="program-highlights">
-              <li>Royal Crimson Honors Presentation</li>
-              <li>Diplomatic Banquet &amp; Cultural Showcase</li>
-              <li>Founding Partner &amp; Dignitary Assembly</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- 5 Closed-Door Pillar Tracks -->
-        <div class="pillars-container">
-          <div class="pillars-header">
-            <h4>The Five Closed-Door Pillar Tracks</h4>
-            <span>DAY TWO • FOCUSED HIGH-TRUST DIALOGUE</span>
-          </div>
-
-          <div class="pillars-grid">
-            <div class="pillar-card">
-              <div class="pillar-num">PILLAR 01</div>
-              <div class="pillar-name">Net Zero &amp; Sustainability</div>
-              <div class="pillar-focus">Dubai &amp; Gulf Clean Capital</div>
-            </div>
-
-            <div class="pillar-card">
-              <div class="pillar-num">PILLAR 02</div>
-              <div class="pillar-name">Sovereign Capital &amp; Holdings</div>
-              <div class="pillar-focus">Singapore &amp; SE Asian Markets</div>
-            </div>
-
-            <div class="pillar-card">
-              <div class="pillar-num">PILLAR 03</div>
-              <div class="pillar-name">Manufacturing &amp; Quality</div>
-              <div class="pillar-focus">Global Industrial Standards</div>
-            </div>
-
-            <div class="pillar-card">
-              <div class="pillar-num">PILLAR 04</div>
-              <div class="pillar-name">Cultural Platforms &amp; Fashion</div>
-              <div class="pillar-focus">Milan &amp; European Production</div>
-            </div>
-
-            <div class="pillar-card">
-              <div class="pillar-num">PILLAR 05</div>
-              <div class="pillar-name">Institution-Building &amp; Governance</div>
-              <div class="pillar-focus">Charter Oversight &amp; Accountability</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Host Venue Alignment Callout -->
-        <div class="venue-alignment-box">
-          <div class="venue-left">
-            <div class="venue-icon">🏛️</div>
-            <div class="venue-text">
-              <h5>Host City &amp; Strategic Outreach</h5>
-              <p>Singapore's Tourism Board sits at the centre of the Institute's government-outreach strategy for the event.</p>
-            </div>
-          </div>
-          <button type="button" class="btn primary open-modal-btn" style="font-size:0.76rem; padding:11px 22px;">
-            Request Founding Partner Prospectus
-          </button>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -2736,167 +2363,36 @@
               Direct oversight over global partnerships, summit curations, and capital alliances.
             </div>
           </div>
+
+          <!-- Chartered Appointments inside Governance (Europe) -->
+          <div class="governance-advisors-wrap">
+            <div class="gov-advisors-label">CHARTERED APPOINTMENTS &bull; EUROPE</div>
+            <div class="gov-advisors-grid">
+              <!-- Alberto Righini -->
+              <div class="gov-advisor-card" style="animation-delay: 0.1s;">
+                <div class="gov-advisor-top">
+                  <span class="gov-advisor-region">Europe &bull; Milan</span>
+                  <span class="gov-advisor-dot" title="Active Chartered Appointment"></span>
+                </div>
+                <div class="gov-advisor-name">Alberto Righini</div>
+                <div class="gov-advisor-role">Founder, Flash Models Milan (1985)</div>
+              </div>
+
+              <!-- Max -->
+              <div class="gov-advisor-card" style="animation-delay: 0.25s;">
+                <div class="gov-advisor-top">
+                  <span class="gov-advisor-region">Europe &bull; Italy</span>
+                  <span class="gov-advisor-dot" title="Active Chartered Appointment"></span>
+                </div>
+                <div class="gov-advisor-name">Max</div>
+                <div class="gov-advisor-role">Show Production, Italy</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- ANIMATED GLOBAL GOVERNANCE ASSEMBLY & DIPLOMATIC ATTACHÉS (14 MEMBERS) -->
-      <div class="governance-assembly-section">
-        <div class="assembly-header">
-          <div>
-            <div class="assembly-kicker">Chartered Advisory Network &amp; Regional Delegations</div>
-            <h3 class="assembly-title">Global Governance Assembly</h3>
-          </div>
-          <div class="assembly-filters" id="assembly-filters">
-            <button type="button" class="assembly-filter-btn active" data-filter="all">All Envoys (14)</button>
-            <button type="button" class="assembly-filter-btn" data-filter="gulf">Gulf &amp; Middle East (04)</button>
-            <button type="button" class="assembly-filter-btn" data-filter="asia">South &amp; SE Asia (04)</button>
-            <button type="button" class="assembly-filter-btn" data-filter="europe">Europe (02)</button>
-            <button type="button" class="assembly-filter-btn" data-filter="wider">Wider Network (04)</button>
-          </div>
-        </div>
 
-        <div class="assembly-grid" id="assembly-grid">
-          <!-- 1. Samiullah Khan -->
-          <div class="assembly-card" data-category="gulf">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">Gulf &amp; Middle East</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Samiullah Khan</div>
-            <div class="assembly-detail">Net Zero &amp; Sustainability, Dubai</div>
-          </div>
-
-          <!-- 2. Parvez (Ahmed Peshimam) -->
-          <div class="assembly-card" data-category="gulf">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">Gulf &amp; Middle East</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Parvez (Ahmed Peshimam)</div>
-            <div class="assembly-detail">Manufacturing &amp; Quality, Dubai</div>
-          </div>
-
-          <!-- 3. Merico -->
-          <div class="assembly-card" data-category="gulf">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">Gulf &amp; Middle East</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Merico</div>
-            <div class="assembly-detail">Dubai, United Arab Emirates</div>
-          </div>
-
-          <!-- 4. Ole -->
-          <div class="assembly-card" data-category="gulf">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">Gulf &amp; Middle East</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Ole</div>
-            <div class="assembly-detail">Dubai, United Arab Emirates</div>
-          </div>
-
-          <!-- 5. Vandana -->
-          <div class="assembly-card" data-category="asia">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">South &amp; Southeast Asia</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Vandana</div>
-            <div class="assembly-detail">Design, Singapore</div>
-          </div>
-
-          <!-- 6. Saadally -->
-          <div class="assembly-card" data-category="asia">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">South &amp; Southeast Asia</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Saadally</div>
-            <div class="assembly-detail">Maldives</div>
-          </div>
-
-          <!-- 7. Shafy -->
-          <div class="assembly-card" data-category="asia">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">South &amp; Southeast Asia</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Shafy</div>
-            <div class="assembly-detail">Founder CEO, Bride Maldives</div>
-          </div>
-
-          <!-- 8. Mafooz -->
-          <div class="assembly-card" data-category="asia">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">South &amp; Southeast Asia</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Mafooz</div>
-            <div class="assembly-detail">Maldives</div>
-          </div>
-
-          <!-- 9. Prassana -->
-          <div class="assembly-card" data-category="europe">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">Europe</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Prassana</div>
-            <div class="assembly-detail">Italy</div>
-          </div>
-
-          <!-- 10. Roman -->
-          <div class="assembly-card" data-category="europe">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">Europe</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Roman</div>
-            <div class="assembly-detail">Germany</div>
-          </div>
-
-          <!-- 11. Mrs K -->
-          <div class="assembly-card" data-category="wider">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">Wider Network</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Mrs K</div>
-            <div class="assembly-detail">Spain</div>
-          </div>
-
-          <!-- 12. Camial -->
-          <div class="assembly-card" data-category="wider">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">Wider Network</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Camial</div>
-            <div class="assembly-detail">Brazil</div>
-          </div>
-
-          <!-- 13. John Guarnes -->
-          <div class="assembly-card" data-category="wider">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">Wider Network</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">John Guarnes</div>
-            <div class="assembly-detail">Designer of the Year, Brand Asia 2025</div>
-          </div>
-
-          <!-- 14. Rahane -->
-          <div class="assembly-card" data-category="wider">
-            <div class="assembly-card-top">
-              <span class="assembly-region-tag">Wider Network</span>
-              <span class="assembly-dot" title="Active Diplomatic Post"></span>
-            </div>
-            <div class="assembly-name">Rahane</div>
-            <div class="assembly-detail">United Kingdom</div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -3212,31 +2708,7 @@
         });
       }
 
-      // Governance Assembly Animated Filter (14 members)
-      const assemblyFilterBtns = document.querySelectorAll('.assembly-filter-btn');
-      const assemblyCards = document.querySelectorAll('.assembly-card');
 
-      assemblyFilterBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-          assemblyFilterBtns.forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-
-          const filter = btn.getAttribute('data-filter');
-          let visibleIndex = 0;
-          assemblyCards.forEach(card => {
-            const category = card.getAttribute('data-category');
-            if (filter === 'all' || category === filter) {
-              card.classList.remove('hidden');
-              card.style.animation = 'none';
-              void card.offsetWidth; // trigger reflow
-              card.style.animation = `assemblyCardFadeIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) ${visibleIndex * 0.04}s backwards`;
-              visibleIndex++;
-            } else {
-              card.classList.add('hidden');
-            }
-          });
-        });
-      });
 
       // Smooth scroll for internal links
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
