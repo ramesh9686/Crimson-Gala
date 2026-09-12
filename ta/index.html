@@ -95,6 +95,7 @@
       text-rendering: optimizeLegibility;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
     }
 
     body {
@@ -148,7 +149,13 @@
 
     @media (max-width: 768px) {
       .wrap {
-        padding: 0 24px;
+        padding: 0 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .wrap {
+        padding: 0 16px;
       }
     }
 
@@ -212,6 +219,7 @@
       letter-spacing: 0.08em;
       color: var(--ink);
       text-transform: uppercase;
+      white-space: nowrap;
     }
 
     .wordmark em {
@@ -342,6 +350,57 @@
       .mobile-menu-btn { display: flex; }
     }
 
+    @media (max-width: 768px) {
+      nav.wrap {
+        height: 72px;
+      }
+      .brand {
+        gap: 10px;
+      }
+      .brand-crest {
+        width: 28px;
+        height: 28px;
+      }
+      .brand-crest::after {
+        width: 8px;
+        height: 8px;
+      }
+      .wordmark {
+        font-size: 0.88rem;
+        letter-spacing: 0.05em;
+        white-space: nowrap;
+      }
+      .wordmark em {
+        font-size: 1.02rem;
+      }
+      .nav-actions {
+        gap: 10px;
+      }
+      .nav-actions .open-modal-btn {
+        display: none; /* Safely accessible in the mobile drawer and in hero section right below */
+      }
+      #lang-switcher {
+        margin-right: 0;
+      }
+      #lang-toggle {
+        padding: 6px 10px;
+        font-size: 0.72rem;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .wordmark {
+        font-size: 0.78rem;
+        letter-spacing: 0.03em;
+      }
+      .wordmark em {
+        font-size: 0.88rem;
+      }
+      .brand {
+        gap: 8px;
+      }
+    }
+
     /* Mobile Drawer */
     .mobile-drawer {
       position: fixed;
@@ -448,8 +507,8 @@
     h1.headline {
       font-family: var(--font-display);
       font-weight: 500;
-      font-size: clamp(2.8rem, 5.5vw, 4.8rem);
-      line-height: 1.04;
+      font-size: clamp(2.3rem, 5.5vw, 4.8rem);
+      line-height: 1.06;
       color: var(--ink);
       letter-spacing: -0.015em;
       margin-bottom: 26px;
@@ -472,11 +531,31 @@
       position: relative;
     }
 
+    @media (max-width: 600px) {
+      .hero-sub {
+        padding-left: 16px;
+        font-size: 0.98rem;
+        line-height: 1.65;
+        margin-bottom: 28px;
+      }
+    }
+
     .hero-cta {
       display: flex;
       gap: 18px;
       flex-wrap: wrap;
       align-items: center;
+    }
+
+    @media (max-width: 480px) {
+      .hero-cta {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+      }
+      .hero-cta .btn {
+        width: 100%;
+      }
     }
 
     /* Royal Seal */
@@ -628,6 +707,18 @@
       align-items: center;
       z-index: 6;
       pointer-events: none;
+      transition: opacity 0.4s ease;
+    }
+
+    .cinematic-stage.is-playing .video-top-bar {
+      opacity: 0;
+      transition: opacity 0.6s ease 1s;
+    }
+
+    .cinematic-stage:hover .video-top-bar,
+    .cinematic-stage:focus-within .video-top-bar {
+      opacity: 1;
+      transition: opacity 0.25s ease;
     }
 
     .film-badge {
@@ -797,10 +888,85 @@
       text-transform: uppercase;
     }
 
+    @media (max-width: 768px) {
+      .video-top-bar {
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        justify-content: flex-start;
+      }
+      .film-stamp {
+        display: none; /* Hide secondary stamp on mobile to prevent blocking video footage */
+      }
+      .film-badge {
+        font-size: 0.62rem;
+        letter-spacing: 0.08em;
+        padding: 4px 10px;
+        gap: 6px;
+        border-radius: 20px;
+        max-width: calc(100% - 20px);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .pulse-dot {
+        width: 5px;
+        height: 5px;
+        flex-shrink: 0;
+      }
+      .stage-ornament {
+        width: 12px;
+        height: 12px;
+      }
+      .stage-ornament.top-left { top: 6px; left: 6px; }
+      .stage-ornament.top-right { top: 6px; right: 6px; }
+      .stage-ornament.bottom-left { bottom: 6px; left: 6px; }
+      .stage-ornament.bottom-right { bottom: 6px; right: 6px; }
+
+      .showcase-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 14px 4px 0;
+        margin-top: 14px;
+      }
+      .showcase-footer .caption {
+        font-size: 0.88rem;
+        line-height: 1.45;
+      }
+      .showcase-footer .specs {
+        font-size: 0.72rem;
+        letter-spacing: 0.06em;
+      }
+    }
+
     @media (max-width: 600px) {
       .sound-status-hint { display: none; }
-      .video-top-bar { top: 10px; left: 10px; right: 10px; }
-      .video-controls { padding: 10px 14px; }
+      .video-controls {
+        padding: 8px 12px;
+        gap: 8px;
+      }
+      .ctrl-left {
+        gap: 8px;
+      }
+      .ctrl-btn {
+        width: 32px;
+        height: 32px;
+      }
+      .ctrl-btn svg {
+        width: 14px;
+        height: 14px;
+      }
+      .audio-indicator {
+        display: none;
+      }
+      .video-timeline-wrap {
+        gap: 8px;
+      }
+      .video-time {
+        font-size: 0.65rem;
+        min-width: 65px;
+      }
     }
 
     /* Cinematic Caption / Context */
@@ -2047,6 +2213,30 @@
       color: rgba(239, 232, 220, 0.75);
     }
 
+    @media (max-width: 600px) {
+      .modal-overlay {
+        padding: 16px;
+      }
+      .prospectus-modal {
+        padding: 32px 20px 24px;
+        max-height: 90vh;
+        overflow-y: auto;
+      }
+      .modal-title {
+        font-size: 1.5rem;
+      }
+      .modal-desc {
+        font-size: 0.86rem;
+        margin-bottom: 20px;
+      }
+      .modal-close {
+        top: 14px;
+        right: 14px;
+        width: 32px;
+        height: 32px;
+      }
+    }
+
     /* Accessibility focus rings */
     a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
       outline: 2px solid var(--gold);
@@ -2249,6 +2439,18 @@
     html[dir="rtl"] .modal-form-view,
     html[dir="rtl"] .prospectus-modal {
       text-align: right;
+    }
+    html[dir="rtl"] .video-progress {
+      left: auto;
+      right: 0;
+    }
+    @media (max-width: 768px) {
+      html[dir="rtl"] #lang-switcher {
+        margin-left: 0;
+      }
+      html[dir="rtl"] .video-top-bar {
+        justify-content: flex-start;
+      }
     }
   </style>
 </head>
@@ -2755,9 +2957,11 @@
         if (video.paused) {
           playIcon.style.display = 'block';
           pauseIcon.style.display = 'none';
+          if (stage) stage.classList.remove('is-playing');
         } else {
           playIcon.style.display = 'none';
           pauseIcon.style.display = 'block';
+          if (stage) stage.classList.add('is-playing');
         }
       };
 
