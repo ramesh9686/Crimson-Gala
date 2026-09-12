@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "克里姆森领导力学院 — 全球领导力特许平台",
+    "description": "克里姆森领导力学院在统一条约下汇聚治理专长、资本力量与文化平台——涵盖全球顾问网络、实体运营分支及2027年新加坡峰会。"
+  },
+  "nav": {
+    "brandAria": "克里姆森领导力学院官网首页",
+    "brandName": "克里姆森",
+    "brandEmphasis": "领导力",
+    "brandSuffix": "学院",
+    "philosophy": "立院宗旨",
+    "network": "全球智网",
+    "ventures": "业务矩阵",
+    "governance": "治理架构",
+    "requestProspectus": "获取简章",
+    "toggleMenuAria": "切换导航菜单",
+    "closeMenuAria": "关闭菜单"
+  },
+  "hero": {
+    "kicker": "全球领导力特许平台",
+    "kickerTag": "MMXXVII",
+    "headlinePart1": "立基者恒久。",
+    "headlinePart2": "声望随势至。",
+    "sub": "克里姆森领导力学院在单一特许架构下汇聚治理智慧、战略资本与文化高地——涵盖全球顾问智库、区域实体业务以及面向2027年的外交级领袖峰会。",
+    "ctaPortfolio": "浏览业务架构",
+    "ctaReel": "观看官方首发影片",
+    "sealAria": "克里姆森领导力学院官方特许印章",
+    "sealMotto": "特许立契",
+    "sealTitle1": "克里姆森",
+    "sealTitle2": "学院",
+    "sealRoman": "MMXXVII"
+  },
+  "video": {
+    "badge": "官方影片 • 克里姆森 MMXXVII",
+    "stamp": "外交特辑 • 1080P 典藏影院",
+    "pauseAria": "暂停视频",
+    "playAria": "播放视频",
+    "muteAria": "静音",
+    "unmuteAria": "开启声音",
+    "soundMuted": "静音状态",
+    "soundLive": "音频已开启",
+    "fullscreenAria": "全屏切换",
+    "caption": "克里姆森领导力学院 — 愿景、治理与全球领袖盛会",
+    "specs": "新加坡总部 • 迪拜 • 米兰"
+  },
+  "philosophy": {
+    "eyebrow": "01 — 立院宗旨",
+    "heading": "领导力当若制度般深厚筑基，而非虚浮之品牌营造。",
+    "quote": "“真正的威望始于严整的架构——治理法度、协同网络与履约力，远在其见诸言辞宣传之前早已确立。”",
+    "quoteAttribution": "— 克里姆森领导力学院《创院特许宪章》",
+    "docLabel": "机构治理信条",
+    "docText": "学院麾下每一实体皆依特许状设立，绝非权宜之作：具备法定职能、明晰权责链条与可量化之成果指标。",
+    "body1": "本学院旨在为原本非正式的领袖级工作赋予持久制度形态——包括深层顾问纽带、资本结构以及重塑行业与政界互动范式的顶层会晤。",
+    "body2": "学院辖下每一实体均具明文法度，行事有章可循：从单项顾问接洽到为期三天的外交级峰会，均具备既定授权、问责归属与清晰产出。"
+  },
+  "network": {
+    "eyebrow": "02 — 全球智网",
+    "heading": "务实高效的全球顾问网络，而非名义名录。",
+    "stat1Value": "20",
+    "stat1Label": "顾问委员会成员",
+    "stat2Value": "12",
+    "stat2Label": "覆盖国家与地区",
+    "stat3Value": "3",
+    "stat3Label": "大区运营子公司",
+    "stat4Value": "2027",
+    "stat4Label": "新加坡旗舰峰会"
+  },
+  "ventures": {
+    "eyebrow": "03 — 业务矩阵",
+    "heading": "克里姆森控股 — 大区实体运营架构。",
+    "singapore": {
+      "label": "大区子公司 01",
+      "title": "克里姆森新加坡",
+      "desc": "立足新加坡的核心子公司，统筹学院东南亚战略运营，主导区域峰会及高层外交拓展事务。",
+      "link": "新加坡"
+    },
+    "mena": {
+      "label": "大区子公司 02",
+      "title": "克里姆森中东与北非",
+      "desc": "设立于迪拜的分支机构，深耕海湾资本市场与高端顾问网络，依托成熟区域人脉稳固开拓。",
+      "link": "迪拜"
+    },
+    "euro": {
+      "label": "大区子公司 03",
+      "title": "克里姆森欧洲",
+      "desc": "设于意大利的实体网络，连接欧洲数十载沉淀的高级时装、影视制作与文化艺术产业核心圈层。",
+      "link": "意大利"
+    }
+  },
+  "governance": {
+    "eyebrow": "04 — 治理架构",
+    "heading": "恪遵统辖，由单一创始人办公室统一规约。",
+    "founderName": "N. 纳迪姆 教授",
+    "founderTitle": "克里姆森领导力学院创始人",
+    "stat1Value": "33",
+    "stat1Label": "深耕机构创建与教育领导领域之年数，恪守卓越声誉",
+    "stat2Value": "3",
+    "stat2Label": "克里姆森控股大区实体子公司 — 新加坡、迪拜、意大利",
+    "stat3Value": "2027",
+    "stat3Label": "学院新加坡旗舰外交领袖会议举办年",
+    "body1": "三十余载遵循基本原理由零构筑高等学府——确立治理规范、财务模型与国际校区网络，铸就学院独特的治事哲学：筑牢根基在先，声望彰显在后。",
+    "body2": "此严谨自律之法则同样贯穿于克里姆森控股各大区子公司及学院战略活动：立院宪章、明晰治理体系以及各项战略推进中专人具名的问责责任制。",
+    "officeTitle": "创院总督办公室",
+    "officeDesc": "统筹全球战略合作、领袖峰会策划及重大资本联盟事宜之核心决策中心。",
+    "appointmentsLabel": "特许任命成员 • 欧洲",
+    "appointment1": {
+      "region": "欧洲 • 米兰",
+      "name": "阿尔贝托·里吉尼 (Alberto Righini)",
+      "role": "米兰 Flash Models 创始人 (1985)"
+    },
+    "appointment2": {
+      "region": "欧洲 • 意大利",
+      "name": "麦克斯 (Max)",
+      "role": "意大利顶级盛典制作人"
+    }
+  },
+  "footer": {
+    "wordmark1": "克里姆森",
+    "wordmark2": "领导力",
+    "wordmark3": "学院",
+    "tagline": "全球领袖特许平台——治理、资本与盛会，集于创院办公室统一调度。",
+    "entitiesHeading": "旗下机构",
+    "holdingLink": "克里姆森控股",
+    "networkLink": "全球顾问网络",
+    "correspondenceHeading": "事务联络",
+    "enquiryFounding": "创院伙伴合作洽询",
+    "enquiryAdvisory": "顾问网络事务联络",
+    "enquiryPress": "媒体与公共关系",
+    "copyright": "© 2026–2027 克里姆森领导力学院。保留所有权利。",
+    "subtext": "crimsonleadershipinstitute.org · crimsonholding.com 控股母约特许实体",
+    "backToTop": "返回页首"
+  },
+  "modal": {
+    "closeAria": "关闭对话框",
+    "confidential": "机密备忘案卷",
+    "heading": "申请创始合伙人合作简章",
+    "body": "审阅2027年新加坡峰会高层执行摘要、财务结构及政商代表团特权条款。",
+    "fields": {
+      "name": "姓名全称 / 官方尊称",
+      "org": "机构机构 / 政府部门 / 家族办公室",
+      "email": "官方机构电子邮箱",
+      "focus": "合作方向"
+    },
+    "placeholders": {
+      "name": "例如：大使阁下 / 博士 / 董事长",
+      "org": "例如：主权财富基金 / 跨国企业集团",
+      "email": "office@organization.com"
+    },
+    "focusOptions": {
+      "foundingPartner": "创始合伙人兼联席主办方（2400万美元总规模）",
+      "pillarDelegation": "闭门专题支柱研讨政商代表团",
+      "advisoryBoard": "全球顾问网络特聘任命",
+      "holdingSubsidiaries": "克里姆森控股大区子公司合资项目"
+    },
+    "submit": "递交机密申请",
+    "successHeading": "申请已受理",
+    "successBody": "创院总督办公室已登记录入您的官方问询。保密版招募简章与加密文件将在24小时内正式送达您的注册邮箱。",
+    "returnLink": "返回学院宪章首页"
+  }
+}

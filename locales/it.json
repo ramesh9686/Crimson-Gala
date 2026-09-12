@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Istituto Crimson di Leadership — Piattaforma Istituzionale per la Leadership Globale",
+    "description": "L'Istituto Crimson di Leadership riunisce governance, capitale e piattaforme culturali sotto un'unica carta fondativa — comprendendo un network consultivo globale, filiali operative e il Summit di Singapore 2027."
+  },
+  "nav": {
+    "brandAria": "Homepage dell'Istituto Crimson di Leadership",
+    "brandName": "Crimson",
+    "brandEmphasis": "Leadership",
+    "brandSuffix": "Institute",
+    "philosophy": "Filosofia",
+    "network": "Network",
+    "ventures": "Imprese",
+    "governance": "Governance",
+    "requestProspectus": "Richiedi Prospetto",
+    "toggleMenuAria": "Apri menu di navigazione",
+    "closeMenuAria": "Chiudi menu"
+  },
+  "hero": {
+    "kicker": "Piattaforma Istituzionale per la Leadership Globale",
+    "kickerTag": "MMXXVII",
+    "headlinePart1": "Le istituzioni durano.",
+    "headlinePart2": "L'influenza segue.",
+    "sub": "L'Istituto Crimson di Leadership coordina competenze di governance, capitali e diplomazia culturale sotto una carta statutaria unitaria — spaziando da un network consultivo mondiale a una serie di filiali operative e a un vertice diplomatico fissato per il 2027.",
+    "ctaPortfolio": "Consulta il portfolio",
+    "ctaReel": "Guarda il filmato inaugurale",
+    "sealAria": "Sigillo statutario ufficiale dell'Istituto Crimson di Leadership",
+    "sealMotto": "Istituito",
+    "sealTitle1": "Crimson",
+    "sealTitle2": "Institute",
+    "sealRoman": "MMXXVII"
+  },
+  "video": {
+    "badge": "Video Ufficiale • Crimson MMXXVII",
+    "stamp": "EDIZIONE DIPLOMATICA • CINEMA 1080P",
+    "pauseAria": "Pausa video",
+    "playAria": "Riproduci video",
+    "muteAria": "Disattiva audio",
+    "unmuteAria": "Attiva audio",
+    "soundMuted": "Audio disattivato",
+    "soundLive": "Audio attivo",
+    "fullscreenAria": "Schermo intero",
+    "caption": "Istituto Crimson di Leadership — Visione, Governance e Vertice Internazionale",
+    "specs": "QUARTIER GENERALE SINGAPORE • DUBAI • MILANO"
+  },
+  "philosophy": {
+    "eyebrow": "01 — Filosofia",
+    "heading": "La leadership si forgia come una solida istituzione, non come un marchio effimero.",
+    "quote": "«L'autorevolezza scaturisce dalla struttura — governance, rete solida e rigore nell'esecuzione — ben prima di manifestarsi attraverso la comunicazione.»",
+    "quoteAttribution": "— Carta Fondativa, Istituto Crimson di Leadership",
+    "docLabel": "DOTTRINA ISTITUZIONALE",
+    "docText": "Ogni organismo dell'Istituto è fondato su una chiara carta costitutiva: mandato definito, linea di comando assegnata e obiettivi misurabili.",
+    "body1": "L'Istituto nasce per dare forma durevole a rapporti di alto livello che altrimenti rimarrebbero privi di cornice istituzionale — consulenze strategiche, architetture di capitale e grandi assise che orientano le relazioni tra pubblico e privato.",
+    "body2": "Tutte le entità afferenti all'Istituto operano secondo norme prestabilite: mandati specifici, responsabilità nominali e metriche oggettive, dai consulti bilaterali fino ai grandi vertici internazionali di tre giorni."
+  },
+  "network": {
+    "eyebrow": "02 — Network",
+    "heading": "Un network consultivo globale operativo, non un semplice elenco di nomi.",
+    "stat1Value": "20",
+    "stat1Label": "Consiglieri strategici",
+    "stat2Value": "12",
+    "stat2Label": "Nazioni rappresentate",
+    "stat3Value": "3",
+    "stat3Label": "Filiali regionali",
+    "stat4Value": "2027",
+    "stat4Label": "Summit inaugurale, Singapore"
+  },
+  "ventures": {
+    "eyebrow": "03 — Imprese",
+    "heading": "Crimson Holding — una solida organizzazione operativa regionale.",
+    "singapore": {
+      "label": "FILIALE OPERATIVA 01",
+      "title": "Crimson Singapura",
+      "desc": "Filiale con sede a Singapore che coordina le attività nel Sud-Est asiatico, in stretto raccordo con le iniziative diplomatiche e i vertici regionali.",
+      "link": "Singapore"
+    },
+    "mena": {
+      "label": "FILIALE OPERATIVA 02",
+      "title": "Crimson MENA",
+      "desc": "Presidio con sede a Dubai che estende l'influenza dell'Istituto nei mercati finanziari e nei circoli consultivi del Golfo.",
+      "link": "Dubai"
+    },
+    "euro": {
+      "label": "FILIALE OPERATIVA 03",
+      "title": "Crimson Euro",
+      "desc": "Struttura basata in Italia che connette l'Istituto all'alta moda, alla produzione di grandi eventi e alle relazioni industriali europee consolidate nel tempo.",
+      "link": "Italia"
+    }
+  },
+  "governance": {
+    "eyebrow": "04 — Governance",
+    "heading": "Posto sotto la supervisione unitaria dell'ufficio del fondatore.",
+    "founderName": "Prof. N. Nadeem",
+    "founderTitle": "Fondatore, Istituto Crimson di Leadership",
+    "stat1Value": "33",
+    "stat1Label": "Anni di impegno nella fondazione istituzionale e nella leadership accademica con una reputazione impeccabile",
+    "stat2Value": "3",
+    "stat2Label": "Filiali regionali di Crimson Holding — Singapore, Dubai, Italia",
+    "stat3Value": "2027",
+    "stat3Label": "Anno del vertice diplomatico di riferimento dell'Istituto a Singapore",
+    "body1": "Oltre tre decenni dedicati alla creazione di istituzioni a partire da solide basi — quadri di governance, sostenibilità economico-finanziaria e campus accademici globali — ispirano il metodo dell'Istituto: prima la solidità strutturale, poi la risonanza pubblica.",
+    "body2": "La medesima disciplina permea l'operato delle filiali di Crimson Holding: principi statutari chiari, criteri di trasparenza e una precisa linea di responsabilità per ogni iniziativa che porti il nome dell'Istituto.",
+    "officeTitle": "UFFICIO DEL GOVERNATORE FONDATORE",
+    "officeDesc": "Supervisione diretta e costante su partenariati mondiali, curatela dei vertici e grandi alleanze di capitale.",
+    "appointmentsLabel": "NOMINE STATUTARIE • EUROPA",
+    "appointment1": {
+      "region": "Europa • Milano",
+      "name": "Alberto Righini",
+      "role": "Fondatore, Flash Models Milano (1985)"
+    },
+    "appointment2": {
+      "region": "Europa • Italia",
+      "name": "Max",
+      "role": "Direzione di Produzione Spettacoli, Italia"
+    }
+  },
+  "footer": {
+    "wordmark1": "Crimson",
+    "wordmark2": "Leadership",
+    "wordmark3": "Institute",
+    "tagline": "Piattaforma statutaria per la leadership globale — governance, finanza strategica e vertici mondiali, presieduti dall'ufficio del fondatore.",
+    "entitiesHeading": "ISTITUZIONI",
+    "holdingLink": "Crimson Holding",
+    "networkLink": "Network Consultivo Globale",
+    "correspondenceHeading": "RELAZIONI ISTITUZIONALI",
+    "enquiryFounding": "Richieste Partner Fondatori",
+    "enquiryAdvisory": "Adesioni Rete Consultiva",
+    "enquiryPress": "Relazioni con la Stampa",
+    "copyright": "© 2026–2027 Istituto Crimson di Leadership. Tutti i diritti riservati.",
+    "subtext": "crimsonleadershipinstitute.org · Carta istitutiva di crimsonholding.com",
+    "backToTop": "Torna all'inizio"
+  },
+  "modal": {
+    "closeAria": "Chiudi finestra",
+    "confidential": "Dossier Riservato",
+    "heading": "Richiesta Prospetto Partner Fondatore",
+    "body": "Accesso alla sintesi esecutiva, ai dettagli economico-finanziari e ai diritti di delegazione per il Summit di Singapore 2027.",
+    "fields": {
+      "name": "Nome e Cognome / Titolo Istituzionale",
+      "org": "Organizzazione / Ministero / Family Office",
+      "email": "Posta Elettronica Istituzionale Ufficiale",
+      "focus": "Ambito di Interesse"
+    },
+    "placeholders": {
+      "name": "es. S.E. Ambasciatore / Dott. / Direttore",
+      "org": "es. Fondo Sovrano / Gruppo Aziendale",
+      "email": "ufficio@organizzazione.com"
+    },
+    "focusOptions": {
+      "foundingPartner": "Partner Fondatore e Co-Organizzatore (Valore 24M$ USD)",
+      "pillarDelegation": "Delegazione Sessioni a Porte Chiuse",
+      "advisoryBoard": "Nomina nel Network Consultivo Internazionale",
+      "holdingSubsidiaries": "Joint Venture con Filiale Regionale Crimson Holding"
+    },
+    "submit": "Invia Richiesta Riservata",
+    "successHeading": "Richiesta Acquisita",
+    "successBody": "L'Ufficio del Governatore Fondatore ha registrato la Sua richiesta accreditata. Il prospetto confidenziale e le istruzioni cifrate verranno recapitati entro 24 ore all'indirizzo comunicato.",
+    "returnLink": "Ritorna alla Carta dell'Istituto"
+  }
+}

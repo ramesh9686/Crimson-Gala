@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Institut Kepimpinan Crimson — Platform Bertauliah bagi Kepimpinan Global",
+    "description": "Institut Kepimpinan Crimson menghimpunkan kepakaran tadbir urus, modal dan platform budaya di bawah satu piagam pengasas — merangkumi rangkaian penasihat global, usaha niaga operasi dan Sidang Kemuncak Singapura 2027."
+  },
+  "nav": {
+    "brandAria": "Laman Utama Institut Kepimpinan Crimson",
+    "brandName": "Crimson",
+    "brandEmphasis": "Kepimpinan",
+    "brandSuffix": "Institut",
+    "philosophy": "Falsafah",
+    "network": "Rangkaian",
+    "ventures": "Usaha Niaga",
+    "governance": "Tadbir Urus",
+    "requestProspectus": "Mohon Prospektus",
+    "toggleMenuAria": "Togol menu navigasi",
+    "closeMenuAria": "Tutup menu"
+  },
+  "hero": {
+    "kicker": "Platform Bertauliah bagi Kepimpinan Global",
+    "kickerTag": "MMXXVII",
+    "headlinePart1": "Institusi bertahan.",
+    "headlinePart2": "Pengaruh menyusul.",
+    "sub": "Institut Kepimpinan Crimson menggembleng kepakaran tadbir urus, modal dan wacana budaya di bawah satu piagam — merangkumi rangkaian penasihat global, portfolio operasi berdaya maju dan sidang kemuncak bertaraf diplomatik untuk 2027.",
+    "ctaPortfolio": "Lihat portfolio",
+    "ctaReel": "Tonton Tayangan Perdana",
+    "sealAria": "Mohor rasmi Institut Kepimpinan Crimson",
+    "sealMotto": "Bertauliah",
+    "sealTitle1": "Institut",
+    "sealTitle2": "Crimson",
+    "sealRoman": "MMXXVII"
+  },
+  "video": {
+    "badge": "Kekili Rasmi • Crimson MMXXVII",
+    "stamp": "EDISI DIPLOMATIK • PAWAGAM 1080P",
+    "pauseAria": "Jeda video",
+    "playAria": "Mainkan video",
+    "muteAria": "Redam audio",
+    "unmuteAria": "Nyahredam audio",
+    "soundMuted": "Bunyi Diredam",
+    "soundLive": "Bunyi Aktif",
+    "fullscreenAria": "Skrin Penuh",
+    "caption": "Institut Kepimpinan Crimson — Wawasan, Tadbir Urus & Pertemuan Global",
+    "specs": "IBU PEJABAT SINGAPURA • DUBAI • MILAN"
+  },
+  "philosophy": {
+    "eyebrow": "01 — Falsafah",
+    "heading": "Kepimpinan dibina seperti sebuah institusi, bukan sekadar jenama.",
+    "quote": "\"Kewibawaan diraih melalui struktur — tadbir urus, jaringan kukuh dan pelaksanaan tuntas — jauh sebelum ia dicanang melalui pemesejan.\"",
+    "quoteAttribution": "— Piagam Pengasas, Institut Kepimpinan Crimson",
+    "docLabel": "DOKTRIN INSTITUSI",
+    "docText": "Setiap entiti di bawah Institut ini bertauliah, bukan diimprovisasi: mandat yang jelas, garis tadbir urus dinamakan dan hasil yang terukur.",
+    "body1": "Institut ini wujud untuk memberi bentuk kekal kepada usaha kepimpinan yang lazimnya tidak formal — hubungan penasihat, struktur modal dan perhimpunan yang mencorak interaksi antara industri dan kerajaan.",
+    "body2": "Setiap entiti di bawah naungan Institut beroperasi berasaskan piagam: mandat berkanun, kebertanggungjawaban terarah dan impak yang boleh dinilai, daripada khidmat nasihat khusus sehinggalah persidangan diplomatik tiga hari."
+  },
+  "network": {
+    "eyebrow": "02 — Rangkaian",
+    "heading": "Rangkaian penasihat global yang aktif berfungsi, bukan sekadar direktori.",
+    "stat1Value": "20",
+    "stat1Label": "Ahli penasihat",
+    "stat2Value": "12",
+    "stat2Label": "Negara diwakili",
+    "stat3Value": "3",
+    "stat3Label": "Anak syarikat serantau",
+    "stat4Value": "2027",
+    "stat4Label": "Sidang kemuncak utama, Singapura"
+  },
+  "ventures": {
+    "eyebrow": "03 — Usaha Niaga",
+    "heading": "Crimson Holding — struktur operasi serantau.",
+    "singapore": {
+      "label": "ANAK SYARIKAT 01",
+      "title": "Crimson Singapura",
+      "desc": "Anak syarikat berpangkalan di Singapura yang menjadi teras operasi Asia Tenggara bagi Institut, memacu persidangan serta jaringan diplomatik serantau.",
+      "link": "Singapura"
+    },
+    "mena": {
+      "label": "ANAK SYARIKAT 02",
+      "title": "Crimson MENA",
+      "desc": "Anak syarikat di Dubai yang memperluas jangkauan Institut ke dalam rangkaian modal dan penasihat Teluk, berasaskan jaringan sedia aktif.",
+      "link": "Dubai"
+    },
+    "euro": {
+      "label": "ANAK SYARIKAT 03",
+      "title": "Crimson Euro",
+      "desc": "Anak syarikat berpangkalan di Itali yang menghubungkan Institut dengan industri fesyen, produksi dan budaya Eropah yang dibina berdekad lamanya.",
+      "link": "Itali"
+    }
+  },
+  "governance": {
+    "eyebrow": "04 — Tadbir Urus",
+    "heading": "Ditauliahkan di bawah satu pejabat pengasas tunggal.",
+    "founderName": "Prof. N. Nadeem",
+    "founderTitle": "Pengasas, Institut Kepimpinan Crimson",
+    "stat1Value": "33",
+    "stat1Label": "Tahun dalam pembinaan institusi dan kepimpinan pendidikan dengan rekod integriti cemerlang",
+    "stat2Value": "3",
+    "stat2Label": "Anak syarikat serantau di bawah Crimson Holding — Singapura, Dubai, Itali",
+    "stat3Value": "2027",
+    "stat3Label": "Tahun berlangsungnya persidangan diplomatik utama Institut di Singapura",
+    "body1": "Tiga dekad pengalaman membina institusi daripada prinsip asas — rangka kerja tadbir urus, model kewangan dan rangkaian kampus antarabangsa — mendasari pendekatan Institut: keutuhan struktur diutamakan, keterlihatan menyusul.",
+    "body2": "Disiplin yang sama memandu anak syarikat Crimson Holding dan inisiatif antarabangsa Institut: piagam pengasas, rangka kerja tadbir urus telus dan kebertanggungjawaban khusus bagi setiap inisiatif.",
+    "officeTitle": "PEJABAT GABENOR PENGASAS",
+    "officeDesc": "Penyeliaan langsung ke atas perkongsian global, kurasi sidang kemuncak dan pakatan modal strategik.",
+    "appointmentsLabel": "PELANTIKAN BERTAULIAH • EROPAH",
+    "appointment1": {
+      "region": "Eropah • Milan",
+      "name": "Alberto Righini",
+      "role": "Pengasas, Flash Models Milan (1985)"
+    },
+    "appointment2": {
+      "region": "Eropah • Itali",
+      "name": "Max",
+      "role": "Pengarah Produksi Acara, Itali"
+    }
+  },
+  "footer": {
+    "wordmark1": "Crimson",
+    "wordmark2": "Leadership",
+    "wordmark3": "Institute",
+    "tagline": "Platform bertauliah kepimpinan global — tadbir urus, modal dan wacana, di bawah satu pejabat pengasas.",
+    "entitiesHeading": "ENTITI",
+    "holdingLink": "Crimson Holding",
+    "networkLink": "Rangkaian Penasihat Global",
+    "correspondenceHeading": "SURAT-MENYURAT",
+    "enquiryFounding": "Pertanyaan Rakan Pengasas",
+    "enquiryAdvisory": "Pertanyaan rangkaian penasihat",
+    "enquiryPress": "Akhbar & media",
+    "copyright": "© 2026–2027 Institut Kepimpinan Crimson. Hak cipta terpelihara.",
+    "subtext": "crimsonleadershipinstitute.org · Piagam induk kepada crimsonholding.com",
+    "backToTop": "Kembali ke Atas"
+  },
+  "modal": {
+    "closeAria": "Tutup dialog",
+    "confidential": "Dosir Sulit",
+    "heading": "Permohonan Prospektus Rakan Pengasas",
+    "body": "Akses kepada ringkasan eksekutif, struktur kewangan dan keistimewaan delegasi untuk Sidang Kemuncak Singapura 2027.",
+    "fields": {
+      "name": "Nama Penuh / Gelaran Kehormat",
+      "org": "Organisasi / Kementerian / Pejabat Keluarga",
+      "email": "E-mel Institusi Rasmi",
+      "focus": "Fokus Pertanyaan"
+    },
+    "placeholders": {
+      "name": "cth. T.Y.T. Duta / Dr. / Pengarah",
+      "org": "cth. Dana Kekayaan Berdaulat / Kumpulan Perusahaan",
+      "email": "office@organization.com"
+    },
+    "focusOptions": {
+      "foundingPartner": "Rakan Pengasas & Tuan Rumah Bersama (Skop AS$24J)",
+      "pillarDelegation": "Delegasi Tertutup Trek Teras",
+      "advisoryBoard": "Pelantikan Rangkaian Penasihat Global",
+      "holdingSubsidiaries": "Usaha Sama Anak Syarikat Serantau Crimson Holding"
+    },
+    "submit": "Hantar Permohonan Sulit",
+    "successHeading": "Permohonan Diterima",
+    "successBody": "Pejabat Gabenor Pengasas telah merekodkan pertanyaan anda. Prospektus sulit dan perutusan disulitkan akan dikemukakan ke alamat rasmi anda dalam tempoh 24 jam.",
+    "returnLink": "Kembali ke Piagam Institut"
+  }
+}

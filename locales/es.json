@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Instituto Crimson de Liderazgo — Plataforma Estatutaria para el Liderazgo Global",
+    "description": "El Instituto Crimson de Liderazgo congrega gobernanza, capital y plataformas culturales bajo una única carta fundacional — articulando una red consultiva global, filiales operativas y la Cumbre de Singapur 2027."
+  },
+  "nav": {
+    "brandAria": "Página principal del Instituto Crimson de Liderazgo",
+    "brandName": "Crimson",
+    "brandEmphasis": "Leadership",
+    "brandSuffix": "Institute",
+    "philosophy": "Filosofía",
+    "network": "Red Global",
+    "ventures": "Filiales",
+    "governance": "Gobernanza",
+    "requestProspectus": "Solicitar Prospecto",
+    "toggleMenuAria": "Alternar menú de navegación",
+    "closeMenuAria": "Cerrar menú"
+  },
+  "hero": {
+    "kicker": "Plataforma Estatutaria para el Liderazgo Global",
+    "kickerTag": "MMXXVII",
+    "headlinePart1": "Las instituciones perduran.",
+    "headlinePart2": "La influencia prevalece.",
+    "sub": "El Instituto Crimson de Liderazgo articula alta gobernanza, capital e influencia cultural bajo una carta estatutaria común — abarcando una selecta red consultiva mundial, empresas operativas y una cumbre diplomática de primer orden en 2027.",
+    "ctaPortfolio": "Ver portafolio",
+    "ctaReel": "Ver presentación oficial",
+    "sealAria": "Sello oficial estatutario del Instituto Crimson de Liderazgo",
+    "sealMotto": "Instituido",
+    "sealTitle1": "Crimson",
+    "sealTitle2": "Institute",
+    "sealRoman": "MMXXVII"
+  },
+  "video": {
+    "badge": "Audiovisual Oficial • Crimson MMXXVII",
+    "stamp": "EDICIÓN DIPLOMÁTICA • CINE 1080P",
+    "pauseAria": "Pausar video",
+    "playAria": "Reproducir video",
+    "muteAria": "Silenciar audio",
+    "unmuteAria": "Activar audio",
+    "soundMuted": "Audio silenciado",
+    "soundLive": "Audio activado",
+    "fullscreenAria": "Pantalla completa",
+    "caption": "Instituto Crimson de Liderazgo — Visión, Gobernanza y Encuentro Global",
+    "specs": "SEDE SINGAPUR • DUBÁI • MILÁN"
+  },
+  "philosophy": {
+    "eyebrow": "01 — Filosofía",
+    "heading": "El liderazgo se edifica como una institución, no como una marca efímera.",
+    "quote": "«La autoridad se consolida mediante la estructura —gobernanza, red y rigor en la ejecución— mucho antes de proclamarse a través del discurso público.»",
+    "quoteAttribution": "— Carta Fundacional, Instituto Crimson de Liderazgo",
+    "docLabel": "DOCTRINA INSTITUCIONAL",
+    "docText": "Cada entidad adscrita al Instituto se rige por un estatuto explícito: mandato definido, línea de gobernanza clara y resultados mensurables.",
+    "body1": "El Instituto confiere permanencia formal a vínculos de alto nivel que de otro modo permanecerían dispersos —asesorías estratégicas, movilización de capital y encuentros que definen las relaciones entre gobiernos y sectores clave.",
+    "body2": "Toda iniciativa amparada por el Instituto responde a pautas formales: un cometido claro, responsabilidad ejecutiva nominal e impacto verificable, desde consultas bilaterales especializadas hasta cumbres diplomáticas de tres jornadas de duración."
+  },
+  "network": {
+    "eyebrow": "02 — Red Global",
+    "heading": "Una red consultiva internacional operativa, no un simple directorio.",
+    "stat1Value": "20",
+    "stat1Label": "Miembros del consejo consultivo",
+    "stat2Value": "12",
+    "stat2Label": "Países representados",
+    "stat3Value": "3",
+    "stat3Label": "Filiales regionales",
+    "stat4Value": "2027",
+    "stat4Label": "Cumbre emblemática, Singapur"
+  },
+  "ventures": {
+    "eyebrow": "03 — Filiales",
+    "heading": "Crimson Holding — estructura operativa regional consolidada.",
+    "singapore": {
+      "label": "FILIAL REGIONAL 01",
+      "title": "Crimson Singapura",
+      "desc": "Filial con sede en Singapur que vertebra las actividades en el sudeste asiático, coordinando cumbres y acuerdos diplomáticos de escala regional.",
+      "link": "Singapur"
+    },
+    "mena": {
+      "label": "FILIAL REGIONAL 02",
+      "title": "Crimson MENA",
+      "desc": "Filial con sede en Dubái que canaliza la labor del Instituto hacia los centros de capital y círculos consultivos del Golfo Pérsico.",
+      "link": "Dubái"
+    },
+    "euro": {
+      "label": "FILIAL REGIONAL 03",
+      "title": "Crimson Euro",
+      "desc": "Filial radicada en Italia que vincula al Instituto con la alta costura europea, la producción de grandes formatos y alianzas industriales consolidadas.",
+      "link": "Italia"
+    }
+  },
+  "governance": {
+    "eyebrow": "04 — Gobernanza",
+    "heading": "Constituido bajo la autoridad exclusiva de un despacho fundador.",
+    "founderName": "Prof. Dr. N. Nadeem",
+    "founderTitle": "Fundador, Instituto Crimson de Liderazgo",
+    "stat1Value": "33",
+    "stat1Label": "Años dedicados a la fundación institucional y al liderazgo educativo con intachable trayectoria",
+    "stat2Value": "3",
+    "stat2Label": "Filiales regionales bajo Crimson Holding — Singapur, Dubái, Italia",
+    "stat3Value": "2027",
+    "stat3Label": "Año del magno encuentro diplomático del Instituto en Singapur",
+    "body1": "Más de tres décadas impulsando instituciones desde bases rigurosas —gobernanza sólida, equilibrios presupuestarios y redes académicas multinacionales— sustentan la visión del Instituto: solidez organizativa primero, proyección pública después.",
+    "body2": "Esta misma disciplina rige las filiales de Crimson Holding: estatutos formales, marcos de transparencia y responsabilidad nominal por cada proyecto que lleve el distintivo del Instituto.",
+    "officeTitle": "DESPACHO DEL GOBERNADOR FUNDADOR",
+    "officeDesc": "Supervisión directa de alianzas globales, diseño de cumbres y acuerdos estratégicos de inversión.",
+    "appointmentsLabel": "NOMBRAMIENTOS ESTATUTARIOS • EUROPA",
+    "appointment1": {
+      "region": "Europa • Milán",
+      "name": "Alberto Righini",
+      "role": "Fundador, Flash Models Milán (1985)"
+    },
+    "appointment2": {
+      "region": "Europa • Italia",
+      "name": "Max",
+      "role": "Dirección de Producción y Espectáculos, Italia"
+    }
+  },
+  "footer": {
+    "wordmark1": "Crimson",
+    "wordmark2": "Leadership",
+    "wordmark3": "Institute",
+    "tagline": "Plataforma colegiada para el liderazgo global —gobernanza, capital y foros diplomáticos, coordinada por una oficina fundacional unificada.",
+    "entitiesHeading": "ENTIDADES",
+    "holdingLink": "Crimson Holding",
+    "networkLink": "Red Consultiva Global",
+    "correspondenceHeading": "CANALES OFICIALES",
+    "enquiryFounding": "Consultas Socios Fundadores",
+    "enquiryAdvisory": "Inscripción en Red Consultiva",
+    "enquiryPress": "Prensa y Comunicación",
+    "copyright": "© 2026–2027 Instituto Crimson de Liderazgo. Todos los derechos reservados.",
+    "subtext": "crimsonleadershipinstitute.org · Estatuto matriz rector de crimsonholding.com",
+    "backToTop": "Subir al inicio"
+  },
+  "modal": {
+    "closeAria": "Cerrar ventana",
+    "confidential": "Expediente Confidencial",
+    "heading": "Solicitud de Prospecto para Socio Fundador",
+    "body": "Acceso a resúmenes ejecutivos, esquemas financieros y acreditaciones diplomáticas para la Cumbre de Singapur 2027.",
+    "fields": {
+      "name": "Nombre completo / Título protocolario",
+      "org": "Institución / Ministerio / Family Office",
+      "email": "Correo Electrónico Institucional Oficial",
+      "focus": "Interés institucional"
+    },
+    "placeholders": {
+      "name": "ej. Excmo. Sr. Embajador / Dr. / Director General",
+      "org": "ej. Fondo Soberano / Consorcio Empresarial",
+      "email": "despacho@organizacion.com"
+    },
+    "focusOptions": {
+      "foundingPartner": "Socio Fundador y Coanfitrión (Dotación 24M$ USD)",
+      "pillarDelegation": "Delegación en Sesiones a Puerta Cerrada",
+      "advisoryBoard": "Designación en la Red Consultiva Global",
+      "holdingSubsidiaries": "Sociedad Conjunta Operativa con Crimson Holding"
+    },
+    "submit": "Remitir Solicitud Confidencial",
+    "successHeading": "Solicitud Registrada",
+    "successBody": "El Despacho del Gobernador Fundador ha registrado su solicitud acreditada. Recibirá el documento confidencial cifrado en su correo electrónico oficial en un plazo no mayor a 24 horas.",
+    "returnLink": "Volver a la Carta del Instituto"
+  }
+}

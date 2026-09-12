@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Crimson Leadership Institute — Chartered Platform for Global Leadership",
+    "description": "The Crimson Leadership Institute convenes governance expertise, capital, and cultural platforms under a single charter — spanning a global advisory network, operating ventures, and the 2027 Singapore Summit & Gala."
+  },
+  "nav": {
+    "brandAria": "Crimson Leadership Institute Homepage",
+    "brandName": "Crimson",
+    "brandEmphasis": "Leadership",
+    "brandSuffix": "Institute",
+    "philosophy": "Philosophy",
+    "network": "Network",
+    "ventures": "Ventures",
+    "governance": "Governance",
+    "requestProspectus": "Request Prospectus",
+    "toggleMenuAria": "Toggle navigation menu",
+    "closeMenuAria": "Close menu"
+  },
+  "hero": {
+    "kicker": "Chartered Platform for Global Leadership",
+    "kickerTag": "MMXXVII",
+    "headlinePart1": "Institutions endure.",
+    "headlinePart2": "Influence follows.",
+    "sub": "The Crimson Leadership Institute convenes governance expertise, capital, and cultural platforms under a single charter — spanning a global advisory network, a portfolio of operating ventures, and a diplomacy-grade summit built for 2027.",
+    "ctaPortfolio": "View the portfolio",
+    "ctaReel": "Watch Premiere Reel",
+    "sealAria": "Official charter seal of the Crimson Leadership Institute",
+    "sealMotto": "Chartered",
+    "sealTitle1": "Crimson",
+    "sealTitle2": "Institute",
+    "sealRoman": "MMXXVII"
+  },
+  "video": {
+    "badge": "Official Reel • Crimson MMXXVII",
+    "stamp": "DIPLOMATIC EDITION • 1080P CINEMA",
+    "pauseAria": "Pause video",
+    "playAria": "Play video",
+    "muteAria": "Mute audio",
+    "unmuteAria": "Unmute audio",
+    "soundMuted": "Sound Muted",
+    "soundLive": "Sound Live",
+    "fullscreenAria": "Toggle Fullscreen",
+    "caption": "Crimson Leadership Institute — Vision, Governance & Global Convening",
+    "specs": "HQ SINGAPORE • DUBAI • MILAN"
+  },
+  "philosophy": {
+    "eyebrow": "01 — Philosophy",
+    "heading": "Leadership is built like an institution, not a brand.",
+    "quote": "\"Authority is earned through structure — governance, network, and follow-through — long before it is claimed through messaging.\"",
+    "quoteAttribution": "— Founding Charter, Crimson Leadership Institute",
+    "docLabel": "INSTITUTIONAL DOCTRINE",
+    "docText": "Every entity under the Institute is chartered, not improvised: a defined mandate, a named governance line, and a measurable outcome.",
+    "body1": "The Institute exists to give durable form to leadership work that would otherwise stay informal — advisory relationships, capital structures, and convenings that shape how industries and governments engage with one another.",
+    "body2": "Every entity under the Institute is chartered, not improvised: a defined mandate, a named governance line, and a measurable outcome, from a single advisory introduction to a three-day diplomatic summit."
+  },
+  "network": {
+    "eyebrow": "02 — Network",
+    "heading": "A working global advisory network, not a directory.",
+    "stat1Value": "20",
+    "stat1Label": "Advisory members",
+    "stat2Value": "12",
+    "stat2Label": "Countries represented",
+    "stat3Value": "3",
+    "stat3Label": "Regional subsidiaries",
+    "stat4Value": "2027",
+    "stat4Label": "Flagship summit, Singapore"
+  },
+  "ventures": {
+    "eyebrow": "03 — Ventures",
+    "heading": "Crimson Holding — a regional operating structure.",
+    "singapore": {
+      "label": "SUBSIDIARY 01",
+      "title": "Crimson Singapura",
+      "desc": "Singapore-based subsidiary anchoring the Institute's Southeast Asian operations, positioned alongside the region's summit and diplomatic outreach work.",
+      "link": "Singapore"
+    },
+    "mena": {
+      "label": "SUBSIDIARY 02",
+      "title": "Crimson MENA",
+      "desc": "Dubai-based subsidiary extending the Institute's reach into Gulf capital and advisory networks, built on an already-active regional advisory base.",
+      "link": "Dubai"
+    },
+    "euro": {
+      "label": "SUBSIDIARY 03",
+      "title": "Crimson Euro",
+      "desc": "Italy-based subsidiary connecting the Institute to European fashion, production, and cultural-industry relationships built over decades.",
+      "link": "Italy"
+    }
+  },
+  "governance": {
+    "eyebrow": "04 — Governance",
+    "heading": "Chartered under a single founding office.",
+    "founderName": "Prof. N. Nadeem",
+    "founderTitle": "Founder, Crimson Leadership Institute",
+    "stat1Value": "33",
+    "stat1Label": "Years in institution-building and education leadership, with an unblemished record",
+    "stat2Value": "3",
+    "stat2Label": "Regional subsidiaries under Crimson Holding — Singapore, Dubai, Italy",
+    "stat3Value": "2027",
+    "stat3Label": "Year of the Institute's flagship diplomatic convening in Singapore",
+    "body1": "Three decades of building institutions from first principles — governance frameworks, financial models, and international campus networks — sit behind the Institute's approach to leadership work: durable structure first, visibility second.",
+    "body2": "That same discipline governs Crimson Holding's regional subsidiaries and the Crimson Global Summit & Gala: a founding charter, a governance framework, and a named accountability line for every initiative the Institute puts its name to.",
+    "officeTitle": "OFFICE OF THE FOUNDING GOVERNOR",
+    "officeDesc": "Direct oversight over global partnerships, summit curations, and capital alliances.",
+    "appointmentsLabel": "CHARTERED APPOINTMENTS • EUROPE",
+    "appointment1": {
+      "region": "Europe • Milan",
+      "name": "Alberto Righini",
+      "role": "Founder, Flash Models Milan (1985)"
+    },
+    "appointment2": {
+      "region": "Europe • Italy",
+      "name": "Max",
+      "role": "Show Production, Italy"
+    }
+  },
+  "footer": {
+    "wordmark1": "Crimson",
+    "wordmark2": "Leadership",
+    "wordmark3": "Institute",
+    "tagline": "A chartered platform for global leadership — governance, capital, and convening, under one founding office.",
+    "entitiesHeading": "ENTITIES",
+    "holdingLink": "Crimson Holding",
+    "networkLink": "Global Advisory Network",
+    "correspondenceHeading": "CORRESPONDENCE",
+    "enquiryFounding": "Founding Partner enquiries",
+    "enquiryAdvisory": "Advisory network enquiries",
+    "enquiryPress": "Press & media",
+    "copyright": "© 2026–2027 Crimson Leadership Institute. All rights reserved.",
+    "subtext": "crimsonleadershipinstitute.org · Parent charter of crimsonholding.com",
+    "backToTop": "Back to Top"
+  },
+  "modal": {
+    "closeAria": "Close dialog",
+    "confidential": "Confidential Dossier",
+    "heading": "Request Founding Partner Prospectus",
+    "body": "Access executive summaries, financial structures, and delegation privileges for the 2027 Singapore Summit & Gala.",
+    "fields": {
+      "name": "Full Name / Dignitary Title",
+      "org": "Organization / Ministry / Family Office",
+      "email": "Official Institutional Email",
+      "focus": "Inquiry Focus"
+    },
+    "placeholders": {
+      "name": "e.g. H.E. Ambassador / Dr. / Director",
+      "org": "e.g. Sovereign Wealth / Enterprise Group",
+      "email": "office@organization.com"
+    },
+    "focusOptions": {
+      "foundingPartner": "Founding Partner & Co-Host (US$24M Scope)",
+      "pillarDelegation": "Pillar Track Closed-Door Delegation",
+      "advisoryBoard": "Global Advisory Network Appointment",
+      "holdingSubsidiaries": "Crimson Holding Regional Subsidiary Joint Venture"
+    },
+    "submit": "Submit Confidential Request",
+    "successHeading": "Request Received",
+    "successBody": "The Founding Governor's Office has logged your credentialed enquiry. A confidential prospectus and encrypted transmission will be dispatched to your registered address within 24 hours.",
+    "returnLink": "Return to Institute Charter"
+  }
+}

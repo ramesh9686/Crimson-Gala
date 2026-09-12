@@ -1,9 +1,8 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/:lang(ar|zh|ms|fr|it|es|pt|ta|hi|el|si)", "destination": "/index.html" },
+    { "source": "/:lang(ar|zh|ms|fr|it|es|pt|ta|hi|el|si)/:path*", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

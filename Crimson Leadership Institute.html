@@ -3,9 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crimson Leadership Institute — Chartered Platform for Global Leadership</title>
-  <meta name="description" content="The Crimson Leadership Institute convenes governance expertise, capital, and cultural platforms under a single charter — spanning a global advisory network, operating ventures, and the 2027 Singapore Summit & Gala.">
+  <title data-i18n="meta.title">Crimson Leadership Institute — Chartered Platform for Global Leadership</title>
+  <meta data-i18n="meta.description" data-i18n-attr="content" name="description" content="The Crimson Leadership Institute convenes governance expertise, capital, and cultural platforms under a single charter — spanning a global advisory network, operating ventures, and the 2027 Singapore Summit & Gala.">
   
+  <link rel="alternate" hreflang="x-default" href="https://crimson-gala-lime.vercel.app/">
+  <link rel="alternate" hreflang="en" href="https://crimson-gala-lime.vercel.app/">
+  <link rel="alternate" hreflang="ar" href="https://crimson-gala-lime.vercel.app/ar/">
+  <link rel="alternate" hreflang="zh" href="https://crimson-gala-lime.vercel.app/zh/">
+  <link rel="alternate" hreflang="ms" href="https://crimson-gala-lime.vercel.app/ms/">
+  <link rel="alternate" hreflang="fr" href="https://crimson-gala-lime.vercel.app/fr/">
+  <link rel="alternate" hreflang="it" href="https://crimson-gala-lime.vercel.app/it/">
+  <link rel="alternate" hreflang="es" href="https://crimson-gala-lime.vercel.app/es/">
+  <link rel="alternate" hreflang="pt" href="https://crimson-gala-lime.vercel.app/pt/">
+  <link rel="alternate" hreflang="ta" href="https://crimson-gala-lime.vercel.app/ta/">
+  <link rel="alternate" hreflang="hi" href="https://crimson-gala-lime.vercel.app/hi/">
+  <link rel="alternate" hreflang="el" href="https://crimson-gala-lime.vercel.app/el/">
+  <link rel="alternate" hreflang="si" href="https://crimson-gala-lime.vercel.app/si/">
+
+  <script>
+    (function() {
+      var SUPPORTED = ['en','ar','zh','ms','fr','it','es','pt','ta','hi','el','si'];
+      var pathLang = location.pathname.split('/')[1];
+      var lang = SUPPORTED.indexOf(pathLang) > -1 ? pathLang : (localStorage.getItem('lang') && SUPPORTED.indexOf(localStorage.getItem('lang')) > -1 ? localStorage.getItem('lang') : 'en');
+      if (lang === 'ar') {
+        document.documentElement.setAttribute('dir', 'rtl');
+      } else {
+        document.documentElement.setAttribute('dir', 'ltr');
+      }
+      document.documentElement.setAttribute('lang', lang);
+    })();
+  </script>
+
   <!-- Google Fonts: Luxury Serif, Imperial Roman, Crisp Sans & Precision Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -2024,6 +2052,204 @@
       outline: 2px solid var(--gold);
       outline-offset: 3px;
     }
+
+    /* Language Switcher Component */
+    .relative {
+      position: relative;
+    }
+    .hidden {
+      display: none !important;
+    }
+    .flex {
+      display: flex;
+    }
+    .items-center {
+      align-items: center;
+    }
+    .gap-1 {
+      gap: 4px;
+    }
+    .text-sm {
+      font-size: 0.82rem;
+    }
+    .absolute {
+      position: absolute;
+    }
+    .z-50 {
+      z-index: 9999;
+    }
+
+    #lang-switcher {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      margin-right: 14px;
+    }
+    #lang-toggle {
+      background: rgba(255, 255, 255, 0.4);
+      border: 1px solid var(--gold-border);
+      color: var(--charcoal);
+      padding: 7px 12px;
+      font-family: var(--font-sans);
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      border-radius: 4px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: var(--transition-smooth);
+    }
+    #lang-toggle:hover, #lang-toggle:focus-visible {
+      border-color: var(--gold);
+      color: var(--crimson-imperial);
+      background: rgba(197, 160, 89, 0.12);
+    }
+    #lang-current {
+      font-weight: 600;
+    }
+    #lang-menu {
+      list-style: none;
+      margin: 0;
+      padding: 6px 0;
+      position: absolute;
+      top: calc(100% + 8px);
+      right: 0;
+      background: #ffffff;
+      border: 1px solid var(--gold-border);
+      box-shadow: 0 16px 36px rgba(11, 13, 19, 0.16);
+      border-radius: 6px;
+      min-width: 140px;
+      max-height: 380px;
+      overflow-y: auto;
+      z-index: 10000;
+    }
+    #lang-menu li {
+      margin: 0;
+      padding: 0;
+    }
+    #lang-menu li button {
+      width: 100%;
+      text-align: left;
+      background: transparent;
+      border: none;
+      padding: 8px 16px;
+      font-family: var(--font-sans);
+      font-size: 0.82rem;
+      color: var(--charcoal);
+      cursor: pointer;
+      transition: background 0.15s ease, color 0.15s ease;
+      display: block;
+    }
+    #lang-menu li button:hover,
+    #lang-menu li button:focus-visible {
+      background: rgba(110, 20, 35, 0.08);
+      color: var(--crimson-imperial);
+    }
+
+    /* Script-specific Font Families */
+    html[lang="ar"] {
+      font-family: 'Noto Sans Arabic', var(--font-sans);
+    }
+    html[lang="ar"] .headline,
+    html[lang="ar"] .section-title,
+    html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3,
+    html[lang="ar"] .wordmark, html[lang="ar"] blockquote {
+      font-family: 'Noto Sans Arabic', var(--font-display);
+    }
+
+    html[lang="zh"] {
+      font-family: 'Noto Sans SC', var(--font-sans);
+    }
+    html[lang="zh"] .headline,
+    html[lang="zh"] .section-title,
+    html[lang="zh"] h1, html[lang="zh"] h2, html[lang="zh"] h3,
+    html[lang="zh"] .wordmark, html[lang="zh"] blockquote {
+      font-family: 'Noto Sans SC', var(--font-display);
+    }
+
+    html[lang="ta"] {
+      font-family: 'Noto Sans Tamil', var(--font-sans);
+    }
+    html[lang="ta"] .headline,
+    html[lang="ta"] .section-title,
+    html[lang="ta"] h1, html[lang="ta"] h2, html[lang="ta"] h3,
+    html[lang="ta"] .wordmark, html[lang="ta"] blockquote {
+      font-family: 'Noto Sans Tamil', var(--font-display);
+    }
+
+    html[lang="hi"] {
+      font-family: 'Noto Sans Devanagari', var(--font-sans);
+    }
+    html[lang="hi"] .headline,
+    html[lang="hi"] .section-title,
+    html[lang="hi"] h1, html[lang="hi"] h2, html[lang="hi"] h3,
+    html[lang="hi"] .wordmark, html[lang="hi"] blockquote {
+      font-family: 'Noto Sans Devanagari', var(--font-display);
+    }
+
+    html[lang="si"] {
+      font-family: 'Noto Sans Sinhala', var(--font-sans);
+    }
+    html[lang="si"] .headline,
+    html[lang="si"] .section-title,
+    html[lang="si"] h1, html[lang="si"] h2, html[lang="si"] h3,
+    html[lang="si"] .wordmark, html[lang="si"] blockquote {
+      font-family: 'Noto Sans Sinhala', var(--font-display);
+    }
+
+    html[lang="el"] {
+      font-family: 'Noto Sans', var(--font-sans);
+    }
+
+    /* RTL Layout Rules for Arabic */
+    html[dir="rtl"] {
+      direction: rtl;
+      text-align: right;
+    }
+    html[dir="rtl"] #lang-switcher {
+      margin-right: 0;
+      margin-left: 14px;
+    }
+    html[dir="rtl"] #lang-menu {
+      right: auto;
+      left: 0;
+      text-align: right;
+    }
+    html[dir="rtl"] #lang-menu li button {
+      text-align: right;
+    }
+    html[dir="rtl"] .arrow {
+      display: inline-block;
+      transform: scaleX(-1);
+    }
+    html[dir="rtl"] .kicker {
+      flex-direction: row-reverse;
+    }
+    html[dir="rtl"] .section-num::after {
+      display: inline-block;
+      margin-right: 12px;
+      margin-left: 0;
+    }
+    html[dir="rtl"] .founder-card {
+      text-align: right;
+    }
+    html[dir="rtl"] .founder-body {
+      text-align: right;
+    }
+    html[dir="rtl"] .charter-seal-box .seal-icon {
+      margin-left: 16px;
+      margin-right: 0;
+    }
+    html[dir="rtl"] .modal-close {
+      right: auto;
+      left: 20px;
+    }
+    html[dir="rtl"] .modal-form-view,
+    html[dir="rtl"] .prospectus-modal {
+      text-align: right;
+    }
   </style>
 </head>
 <body>
@@ -2031,23 +2257,42 @@
   <!-- Floating Luxury Navigation -->
   <header id="site-header">
     <nav class="wrap">
-      <a href="#" class="brand" aria-label="Crimson Leadership Institute Homepage">
+      <a href="#" class="brand" data-i18n="nav.brandAria" data-i18n-attr="aria-label" aria-label="Crimson Leadership Institute Homepage">
         <div class="brand-crest" aria-hidden="true"></div>
-        <div class="wordmark">Crimson <em>Leadership</em> Institute</div>
+        <div class="wordmark"><span data-i18n="nav.brandName">Crimson</span> <em data-i18n="nav.brandEmphasis">Leadership</em> <span data-i18n="nav.brandSuffix">Institute</span></div>
       </a>
       
       <div class="navlinks">
-        <a href="#philosophy">Philosophy</a>
-        <a href="#network">Network</a>
-        <a href="#ventures">Ventures</a>
-        <a href="#founder">Governance</a>
+        <a href="#philosophy" data-i18n="nav.philosophy">Philosophy</a>
+        <a href="#network" data-i18n="nav.network">Network</a>
+        <a href="#ventures" data-i18n="nav.ventures">Ventures</a>
+        <a href="#founder" data-i18n="nav.governance">Governance</a>
       </div>
 
       <div class="nav-actions">
-        <button type="button" class="btn primary open-modal-btn" style="padding: 10px 22px; font-size: 0.78rem;">
+        <div class="relative" id="lang-switcher">
+          <button id="lang-toggle" class="flex items-center gap-1 text-sm" aria-haspopup="true" aria-expanded="false">
+            <span id="lang-current">EN</span> ▾
+          </button>
+          <ul id="lang-menu" class="hidden absolute mt-2 bg-white shadow-lg rounded-md py-1 text-sm z-50">
+            <li><button data-lang="en">English</button></li>
+            <li><button data-lang="ar">العربية</button></li>
+            <li><button data-lang="zh">中文</button></li>
+            <li><button data-lang="ms">Bahasa Melayu</button></li>
+            <li><button data-lang="fr">Français</button></li>
+            <li><button data-lang="it">Italiano</button></li>
+            <li><button data-lang="es">Español</button></li>
+            <li><button data-lang="pt">Português</button></li>
+            <li><button data-lang="ta">தமிழ்</button></li>
+            <li><button data-lang="hi">हिन्दी</button></li>
+            <li><button data-lang="el">Ελληνικά</button></li>
+            <li><button data-lang="si">සිංහල</button></li>
+          </ul>
+        </div>
+        <button type="button" class="btn primary open-modal-btn" style="padding: 10px 22px; font-size: 0.78rem;" data-i18n="nav.requestProspectus">
           Request Prospectus
         </button>
-        <button type="button" class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Toggle navigation menu">
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-toggle" data-i18n="nav.toggleMenuAria" data-i18n-attr="aria-label" aria-label="Toggle navigation menu">
           <span></span>
           <span></span>
           <span></span>
@@ -2058,12 +2303,12 @@
 
   <!-- Mobile Drawer -->
   <div class="mobile-drawer" id="mobile-drawer">
-    <button class="mobile-close-btn" id="mobile-close-btn" aria-label="Close menu">&times;</button>
-    <a href="#philosophy" class="mobile-link">Philosophy</a>
-    <a href="#network" class="mobile-link">Network</a>
-    <a href="#ventures" class="mobile-link">Ventures</a>
-    <a href="#founder" class="mobile-link">Governance</a>
-    <button type="button" class="btn primary open-modal-btn" style="margin-top: 14px;">
+    <button class="mobile-close-btn" id="mobile-close-btn" data-i18n="nav.closeMenuAria" data-i18n-attr="aria-label" aria-label="Close menu">&times;</button>
+    <a href="#philosophy" class="mobile-link" data-i18n="nav.philosophy">Philosophy</a>
+    <a href="#network" class="mobile-link" data-i18n="nav.network">Network</a>
+    <a href="#ventures" class="mobile-link" data-i18n="nav.ventures">Ventures</a>
+    <a href="#founder" class="mobile-link" data-i18n="nav.governance">Governance</a>
+    <button type="button" class="btn primary open-modal-btn" style="margin-top: 14px;" data-i18n="nav.requestProspectus">
       Request Prospectus
     </button>
   </div>
@@ -2075,28 +2320,28 @@
         <div>
           <div class="kicker">
             <span class="kicker-line"></span>
-            <span>Chartered Platform for Global Leadership</span>
-            <span class="kicker-tag">MMXXVII</span>
+            <span data-i18n="hero.kicker">Chartered Platform for Global Leadership</span>
+            <span class="kicker-tag" data-i18n="hero.kickerTag">MMXXVII</span>
           </div>
-          <h1 class="headline">Institutions endure.<br><span class="italic">Influence follows.</span></h1>
-          <p class="hero-sub">
+          <h1 class="headline"><span data-i18n="hero.headlinePart1">Institutions endure.</span><br><span class="italic" data-i18n="hero.headlinePart2">Influence follows.</span></h1>
+          <p class="hero-sub" data-i18n="hero.sub">
             The Crimson Leadership Institute convenes governance expertise, capital, and cultural platforms under a single charter — spanning a global advisory network, a portfolio of operating ventures, and a diplomacy-grade summit built for 2027.
           </p>
           <div class="hero-cta">
-            <a href="#ventures" class="btn primary">View the portfolio</a>
+            <a href="#ventures" class="btn primary" data-i18n="hero.ctaPortfolio">View the portfolio</a>
             <button type="button" class="btn" id="watch-reel-btn" style="border-color: var(--gold); color: var(--gold-deep);">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style="display:inline-block; margin-right:4px;"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-              Watch Premiere Reel
+              <span data-i18n="hero.ctaReel">Watch Premiere Reel</span>
             </button>
           </div>
         </div>
 
         <div class="seal-wrap">
-          <div class="seal" role="img" aria-label="Official charter seal of the Crimson Leadership Institute">
+          <div class="seal" role="img" data-i18n="hero.sealAria" data-i18n-attr="aria-label" aria-label="Official charter seal of the Crimson Leadership Institute">
             <div class="seal-inner">
-              <div class="seal-motto">Chartered</div>
-              <div class="seal-title">Crimson<br>Institute</div>
-              <div class="seal-roman">MMXXVII</div>
+              <div class="seal-motto" data-i18n="hero.sealMotto">Chartered</div>
+              <div class="seal-title"><span data-i18n="hero.sealTitle1">Crimson</span><br><span data-i18n="hero.sealTitle2">Institute</span></div>
+              <div class="seal-roman" data-i18n="hero.sealRoman">MMXXVII</div>
             </div>
           </div>
         </div>
@@ -2115,9 +2360,9 @@
           <div class="video-top-bar">
             <div class="film-badge">
               <span class="pulse-dot"></span>
-              <span>Official Reel • Crimson MMXXVII</span>
+              <span data-i18n="video.badge">Official Reel • Crimson MMXXVII</span>
             </div>
-            <div class="film-stamp">DIPLOMATIC EDITION • 1080P CINEMA</div>
+            <div class="film-stamp" data-i18n="video.stamp">DIPLOMATIC EDITION • 1080P CINEMA</div>
           </div>
 
           <!-- Video Container -->
@@ -2132,12 +2377,12 @@
           <!-- Luxury Video Controls -->
           <div class="video-controls">
             <div class="ctrl-left">
-              <button type="button" class="ctrl-btn" id="play-pause-btn" aria-label="Pause video">
+              <button type="button" class="ctrl-btn" id="play-pause-btn" data-i18n="video.pauseAria" data-i18n-attr="aria-label" aria-label="Pause video">
                 <svg id="play-icon" style="display:none;" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
                 <svg id="pause-icon" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
               </button>
 
-              <button type="button" class="ctrl-btn" id="mute-unmute-btn" aria-label="Unmute audio">
+              <button type="button" class="ctrl-btn" id="mute-unmute-btn" data-i18n="video.unmuteAria" data-i18n-attr="aria-label" aria-label="Unmute audio">
                 <svg id="volume-muted-icon" viewBox="0 0 24 24"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15" stroke="currentColor" stroke-width="2"/><line x1="17" y1="9" x2="23" y2="15" stroke="currentColor" stroke-width="2"/></svg>
                 <svg id="volume-high-icon" style="display:none;" viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07" fill="none" stroke="currentColor" stroke-width="2"/></svg>
               </button>
@@ -2157,8 +2402,8 @@
             </div>
 
             <div class="ctrl-right">
-              <span class="sound-status-hint" id="sound-status-label">Sound Muted</span>
-              <button type="button" class="ctrl-btn" id="fullscreen-btn" aria-label="Toggle Fullscreen">
+              <span class="sound-status-hint" id="sound-status-label" data-i18n="video.soundMuted">Sound Muted</span>
+              <button type="button" class="ctrl-btn" id="fullscreen-btn" data-i18n="video.fullscreenAria" data-i18n-attr="aria-label" aria-label="Toggle Fullscreen">
                 <svg viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" fill="none" stroke="currentColor" stroke-width="2"/></svg>
               </button>
             </div>
@@ -2166,8 +2411,8 @@
         </div>
 
         <div class="showcase-footer">
-          <div class="caption">Crimson Leadership Institute &mdash; Vision, Governance &amp; Global Convening</div>
-          <div class="specs">HQ SINGAPORE • DUBAI • MILAN</div>
+          <div class="caption" data-i18n="video.caption">Crimson Leadership Institute &mdash; Vision, Governance &amp; Global Convening</div>
+          <div class="specs" data-i18n="video.specs">HQ SINGAPORE • DUBAI • MILAN</div>
         </div>
       </div>
     </div>
@@ -2177,22 +2422,22 @@
   <section class="philosophy" id="philosophy">
     <div class="wrap">
       <div class="section-head">
-        <div class="section-num">01 — Philosophy</div>
-        <h2 class="section-title">Leadership is built like an institution, not a brand.</h2>
+        <div class="section-num" data-i18n="philosophy.eyebrow">01 — Philosophy</div>
+        <h2 class="section-title" data-i18n="philosophy.heading">Leadership is built like an institution, not a brand.</h2>
       </div>
       <div class="philosophy-grid">
         <div>
-          <blockquote>"Authority is earned through structure — governance, network, and follow-through — long before it is claimed through messaging."</blockquote>
-          <div class="philosophy-cite">— Founding Charter, Crimson Leadership Institute</div>
+          <blockquote data-i18n="philosophy.quote">"Authority is earned through structure — governance, network, and follow-through — long before it is claimed through messaging."</blockquote>
+          <div class="philosophy-cite" data-i18n="philosophy.quoteAttribution">— Founding Charter, Crimson Leadership Institute</div>
 
           <div class="philosophy-card-highlight">
-            <div class="badge">INSTITUTIONAL DOCTRINE</div>
-            <div class="text">Every entity under the Institute is chartered, not improvised: a defined mandate, a named governance line, and a measurable outcome.</div>
+            <div class="badge" data-i18n="philosophy.docLabel">INSTITUTIONAL DOCTRINE</div>
+            <div class="text" data-i18n="philosophy.docText">Every entity under the Institute is chartered, not improvised: a defined mandate, a named governance line, and a measurable outcome.</div>
           </div>
         </div>
         <div class="philosophy-body">
-          <p>The Institute exists to give durable form to leadership work that would otherwise stay informal — advisory relationships, capital structures, and convenings that shape how industries and governments engage with one another.</p>
-          <p>Every entity under the Institute is chartered, not improvised: a defined mandate, a named governance line, and a measurable outcome, from a single advisory introduction to a three-day diplomatic summit.</p>
+          <p data-i18n="philosophy.body1">The Institute exists to give durable form to leadership work that would otherwise stay informal — advisory relationships, capital structures, and convenings that shape how industries and governments engage with one another.</p>
+          <p data-i18n="philosophy.body2">Every entity under the Institute is chartered, not improvised: a defined mandate, a named governance line, and a measurable outcome, from a single advisory introduction to a three-day diplomatic summit.</p>
         </div>
       </div>
     </div>
@@ -2202,27 +2447,27 @@
   <section id="network">
     <div class="wrap">
       <div class="section-head">
-        <div class="section-num">02 — Network</div>
-        <h2 class="section-title">A working global advisory network, not a directory.</h2>
+        <div class="section-num" data-i18n="network.eyebrow">02 — Network</div>
+        <h2 class="section-title" data-i18n="network.heading">A working global advisory network, not a directory.</h2>
       </div>
 
       <!-- Network Stats -->
       <div class="network-stats">
         <div class="stat">
-          <div class="num">20</div>
-          <div class="label">Advisory members</div>
+          <div class="num" data-i18n="network.stat1Value">20</div>
+          <div class="label" data-i18n="network.stat1Label">Advisory members</div>
         </div>
         <div class="stat">
-          <div class="num">12</div>
-          <div class="label">Countries represented</div>
+          <div class="num" data-i18n="network.stat2Value">12</div>
+          <div class="label" data-i18n="network.stat2Label">Countries represented</div>
         </div>
         <div class="stat">
-          <div class="num">3</div>
-          <div class="label">Regional subsidiaries</div>
+          <div class="num" data-i18n="network.stat3Value">3</div>
+          <div class="label" data-i18n="network.stat3Label">Regional subsidiaries</div>
         </div>
         <div class="stat">
-          <div class="num">2027</div>
-          <div class="label">Flagship summit, Singapore</div>
+          <div class="num" data-i18n="network.stat4Value">2027</div>
+          <div class="label" data-i18n="network.stat4Label">Flagship summit, Singapore</div>
         </div>
       </div>
 
@@ -2233,37 +2478,37 @@
   <section id="ventures" class="ventures-section">
     <div class="wrap">
       <div class="section-head">
-        <div class="section-num">03 — Ventures</div>
-        <h2 class="section-title">Crimson Holding — a regional operating structure.</h2>
+        <div class="section-num" data-i18n="ventures.eyebrow">03 — Ventures</div>
+        <h2 class="section-title" data-i18n="ventures.heading">Crimson Holding — a regional operating structure.</h2>
       </div>
 
       <div class="ventures">
         <div class="venture">
-          <div class="vlabel">SUBSIDIARY 01</div>
-          <h3>Crimson Singapura</h3>
-          <p>Singapore-based subsidiary anchoring the Institute's Southeast Asian operations, positioned alongside the region's summit and diplomatic outreach work.</p>
+          <div class="vlabel" data-i18n="ventures.singapore.label">SUBSIDIARY 01</div>
+          <h3 data-i18n="ventures.singapore.title">Crimson Singapura</h3>
+          <p data-i18n="ventures.singapore.desc">Singapore-based subsidiary anchoring the Institute's Southeast Asian operations, positioned alongside the region's summit and diplomatic outreach work.</p>
           <div class="vfoot">
-            <span>Singapore</span>
+            <span data-i18n="ventures.singapore.link">Singapore</span>
             <span class="arrow">→</span>
           </div>
         </div>
 
         <div class="venture">
-          <div class="vlabel">SUBSIDIARY 02</div>
-          <h3>Crimson MENA</h3>
-          <p>Dubai-based subsidiary extending the Institute's reach into Gulf capital and advisory networks, built on an already-active regional advisory base.</p>
+          <div class="vlabel" data-i18n="ventures.mena.label">SUBSIDIARY 02</div>
+          <h3 data-i18n="ventures.mena.title">Crimson MENA</h3>
+          <p data-i18n="ventures.mena.desc">Dubai-based subsidiary extending the Institute's reach into Gulf capital and advisory networks, built on an already-active regional advisory base.</p>
           <div class="vfoot">
-            <span>Dubai</span>
+            <span data-i18n="ventures.mena.link">Dubai</span>
             <span class="arrow">→</span>
           </div>
         </div>
 
         <div class="venture">
-          <div class="vlabel">SUBSIDIARY 03</div>
-          <h3>Crimson Euro</h3>
-          <p>Italy-based subsidiary connecting the Institute to European fashion, production, and cultural-industry relationships built over decades.</p>
+          <div class="vlabel" data-i18n="ventures.euro.label">SUBSIDIARY 03</div>
+          <h3 data-i18n="ventures.euro.title">Crimson Euro</h3>
+          <p data-i18n="ventures.euro.desc">Italy-based subsidiary connecting the Institute to European fashion, production, and cultural-industry relationships built over decades.</p>
           <div class="vfoot">
-            <span>Italy</span>
+            <span data-i18n="ventures.euro.link">Italy</span>
             <span class="arrow">→</span>
           </div>
         </div>
@@ -2275,64 +2520,64 @@
   <section id="founder">
     <div class="wrap">
       <div class="section-head">
-        <div class="section-num">04 — Governance</div>
-        <h2 class="section-title">Chartered under a single founding office.</h2>
+        <div class="section-num" data-i18n="governance.eyebrow">04 — Governance</div>
+        <h2 class="section-title" data-i18n="governance.heading">Chartered under a single founding office.</h2>
       </div>
 
       <div class="founder-grid">
         <div class="founder-card">
-          <div class="founder-name">Prof. N. Nadeem</div>
-          <div class="founder-role">Founder, Crimson Leadership Institute</div>
+          <div class="founder-name" data-i18n="governance.founderName">Prof. N. Nadeem</div>
+          <div class="founder-role" data-i18n="governance.founderTitle">Founder, Crimson Leadership Institute</div>
           <div class="founder-facts">
             <div class="founder-fact">
-              <div class="fn">33</div>
-              <div class="fl">Years in institution-building and education leadership, with an unblemished record</div>
+              <div class="fn" data-i18n="governance.stat1Value">33</div>
+              <div class="fl" data-i18n="governance.stat1Label">Years in institution-building and education leadership, with an unblemished record</div>
             </div>
             <div class="founder-fact">
-              <div class="fn">3</div>
-              <div class="fl">Regional subsidiaries under Crimson Holding — Singapore, Dubai, Italy</div>
+              <div class="fn" data-i18n="governance.stat2Value">3</div>
+              <div class="fl" data-i18n="governance.stat2Label">Regional subsidiaries under Crimson Holding — Singapore, Dubai, Italy</div>
             </div>
             <div class="founder-fact">
-              <div class="fn">2027</div>
-              <div class="fl">Year of the Institute's flagship diplomatic convening in Singapore</div>
+              <div class="fn" data-i18n="governance.stat3Value">2027</div>
+              <div class="fl" data-i18n="governance.stat3Label">Year of the Institute's flagship diplomatic convening in Singapore</div>
             </div>
           </div>
         </div>
 
         <div class="founder-body">
-          <p>Three decades of building institutions from first principles — governance frameworks, financial models, and international campus networks — sit behind the Institute's approach to leadership work: durable structure first, visibility second.</p>
-          <p>That same discipline governs Crimson Holding's regional subsidiaries and the Crimson Global Summit &amp; Gala: a founding charter, a governance framework, and a named accountability line for every initiative the Institute puts its name to.</p>
+          <p data-i18n="governance.body1">Three decades of building institutions from first principles — governance frameworks, financial models, and international campus networks — sit behind the Institute's approach to leadership work: durable structure first, visibility second.</p>
+          <p data-i18n="governance.body2">That same discipline governs Crimson Holding's regional subsidiaries and the Crimson Global Summit &amp; Gala: a founding charter, a governance framework, and a named accountability line for every initiative the Institute puts its name to.</p>
 
           <div class="charter-seal-box">
             <div class="seal-icon">C</div>
             <div class="text">
-              <strong>OFFICE OF THE FOUNDING GOVERNOR</strong><br>
-              Direct oversight over global partnerships, summit curations, and capital alliances.
+              <strong data-i18n="governance.officeTitle">OFFICE OF THE FOUNDING GOVERNOR</strong><br>
+              <span data-i18n="governance.officeDesc">Direct oversight over global partnerships, summit curations, and capital alliances.</span>
             </div>
           </div>
 
           <!-- Chartered Appointments inside Governance (Europe) -->
           <div class="governance-advisors-wrap">
-            <div class="gov-advisors-label">CHARTERED APPOINTMENTS &bull; EUROPE</div>
+            <div class="gov-advisors-label" data-i18n="governance.appointmentsLabel">CHARTERED APPOINTMENTS &bull; EUROPE</div>
             <div class="gov-advisors-grid">
               <!-- Alberto Righini -->
               <div class="gov-advisor-card" style="animation-delay: 0.1s;">
                 <div class="gov-advisor-top">
-                  <span class="gov-advisor-region">Europe &bull; Milan</span>
+                  <span class="gov-advisor-region" data-i18n="governance.appointment1.region">Europe &bull; Milan</span>
                   <span class="gov-advisor-dot" title="Active Chartered Appointment"></span>
                 </div>
-                <div class="gov-advisor-name">Alberto Righini</div>
-                <div class="gov-advisor-role">Founder, Flash Models Milan (1985)</div>
+                <div class="gov-advisor-name" data-i18n="governance.appointment1.name">Alberto Righini</div>
+                <div class="gov-advisor-role" data-i18n="governance.appointment1.role">Founder, Flash Models Milan (1985)</div>
               </div>
 
               <!-- Max -->
               <div class="gov-advisor-card" style="animation-delay: 0.25s;">
                 <div class="gov-advisor-top">
-                  <span class="gov-advisor-region">Europe &bull; Italy</span>
+                  <span class="gov-advisor-region" data-i18n="governance.appointment2.region">Europe &bull; Italy</span>
                   <span class="gov-advisor-dot" title="Active Chartered Appointment"></span>
                 </div>
-                <div class="gov-advisor-name">Max</div>
-                <div class="gov-advisor-role">Show Production, Italy</div>
+                <div class="gov-advisor-name" data-i18n="governance.appointment2.name">Max</div>
+                <div class="gov-advisor-role" data-i18n="governance.appointment2.role">Show Production, Italy</div>
               </div>
             </div>
           </div>
@@ -2348,44 +2593,44 @@
     <div class="wrap">
       <div class="footer-grid">
         <div>
-          <div class="footer-word">Crimson <em>Leadership</em> Institute</div>
-          <p>A chartered platform for global leadership — governance, capital, and convening, under one founding office.</p>
+          <div class="footer-word"><span data-i18n="footer.wordmark1">Crimson</span> <em data-i18n="footer.wordmark2">Leadership</em> <span data-i18n="footer.wordmark3">Institute</span></div>
+          <p data-i18n="footer.tagline">A chartered platform for global leadership — governance, capital, and convening, under one founding office.</p>
         </div>
 
         <div class="footer-col">
-          <h5>ENTITIES</h5>
+          <h5 data-i18n="footer.entitiesHeading">ENTITIES</h5>
           <a href="https://crimsonholding.com/" target="_blank" rel="noopener">
-            <span>Crimson Holding</span>
+            <span data-i18n="footer.holdingLink">Crimson Holding</span>
             <span class="arrow">→</span>
           </a>
           <a href="#network">
-            <span>Global Advisory Network</span>
+            <span data-i18n="footer.networkLink">Global Advisory Network</span>
             <span class="arrow">→</span>
           </a>
         </div>
 
         <div class="footer-col">
-          <h5>CORRESPONDENCE</h5>
+          <h5 data-i18n="footer.correspondenceHeading">CORRESPONDENCE</h5>
           <a href="#contact" class="open-modal-btn">
-            <span>Founding Partner enquiries</span>
+            <span data-i18n="footer.enquiryFounding">Founding Partner enquiries</span>
             <span class="arrow">→</span>
           </a>
           <a href="#contact" class="open-modal-btn">
-            <span>Advisory network enquiries</span>
+            <span data-i18n="footer.enquiryAdvisory">Advisory network enquiries</span>
             <span class="arrow">→</span>
           </a>
           <a href="#contact" class="open-modal-btn">
-            <span>Press &amp; media</span>
+            <span data-i18n="footer.enquiryPress">Press &amp; media</span>
             <span class="arrow">→</span>
           </a>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <div>© 2026–2027 Crimson Leadership Institute. All rights reserved.</div>
-        <div>crimsonleadershipinstitute.org · Parent charter of crimsonholding.com</div>
+        <div data-i18n="footer.copyright">© 2026–2027 Crimson Leadership Institute. All rights reserved.</div>
+        <div data-i18n="footer.subtext">crimsonleadershipinstitute.org · Parent charter of crimsonholding.com</div>
         <a href="#hero" class="back-to-top">
-          <span>Back to Top</span>
+          <span data-i18n="footer.backToTop">Back to Top</span>
           <span>↑</span>
         </a>
       </div>
@@ -2395,36 +2640,36 @@
   <!-- PROSPECTUS / CONTACT MODAL -->
   <div class="modal-overlay" id="prospectus-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
     <div class="prospectus-modal">
-      <button class="modal-close" id="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <button class="modal-close" id="modal-close-btn" data-i18n="modal.closeAria" data-i18n-attr="aria-label" aria-label="Close dialog">&times;</button>
       
       <div id="modal-form-view">
-        <div class="modal-kicker">Confidential Dossier</div>
-        <h3 class="modal-title" id="modal-title">Request Founding Partner Prospectus</h3>
-        <p class="modal-desc">Access executive summaries, financial structures, and delegation privileges for the 2027 Singapore Summit &amp; Gala.</p>
+        <div class="modal-kicker" data-i18n="modal.confidential">Confidential Dossier</div>
+        <h3 class="modal-title" id="modal-title" data-i18n="modal.heading">Request Founding Partner Prospectus</h3>
+        <p class="modal-desc" data-i18n="modal.body">Access executive summaries, financial structures, and delegation privileges for the 2027 Singapore Summit &amp; Gala.</p>
 
         <form id="prospectus-form">
           <div class="form-group">
-            <label for="p-name">Full Name / Dignitary Title</label>
-            <input type="text" id="p-name" class="form-control" placeholder="e.g. H.E. Ambassador / Dr. / Director" required>
+            <label for="p-name" data-i18n="modal.fields.name">Full Name / Dignitary Title</label>
+            <input type="text" id="p-name" class="form-control" data-i18n="modal.placeholders.name" data-i18n-attr="placeholder" placeholder="e.g. H.E. Ambassador / Dr. / Director" required>
           </div>
           <div class="form-group">
-            <label for="p-org">Organization / Ministry / Family Office</label>
-            <input type="text" id="p-org" class="form-control" placeholder="e.g. Sovereign Wealth / Enterprise Group" required>
+            <label for="p-org" data-i18n="modal.fields.org">Organization / Ministry / Family Office</label>
+            <input type="text" id="p-org" class="form-control" data-i18n="modal.placeholders.org" data-i18n-attr="placeholder" placeholder="e.g. Sovereign Wealth / Enterprise Group" required>
           </div>
           <div class="form-group">
-            <label for="p-email">Official Institutional Email</label>
-            <input type="email" id="p-email" class="form-control" placeholder="office@organization.com" required>
+            <label for="p-email" data-i18n="modal.fields.email">Official Institutional Email</label>
+            <input type="email" id="p-email" class="form-control" data-i18n="modal.placeholders.email" data-i18n-attr="placeholder" placeholder="office@organization.com" required>
           </div>
           <div class="form-group">
-            <label for="p-interest">Inquiry Focus</label>
+            <label for="p-interest" data-i18n="modal.fields.focus">Inquiry Focus</label>
             <select id="p-interest" class="form-control">
-              <option value="founding-partner">Founding Partner &amp; Co-Host (US$24M Scope)</option>
-              <option value="pillar-delegation">Pillar Track Closed-Door Delegation</option>
-              <option value="advisory-board">Global Advisory Network Appointment</option>
-              <option value="holding-subsidiaries">Crimson Holding Regional Subsidiary Joint Venture</option>
+              <option value="founding-partner" data-i18n="modal.focusOptions.foundingPartner">Founding Partner &amp; Co-Host (US$24M Scope)</option>
+              <option value="pillar-delegation" data-i18n="modal.focusOptions.pillarDelegation">Pillar Track Closed-Door Delegation</option>
+              <option value="advisory-board" data-i18n="modal.focusOptions.advisoryBoard">Global Advisory Network Appointment</option>
+              <option value="holding-subsidiaries" data-i18n="modal.focusOptions.holdingSubsidiaries">Crimson Holding Regional Subsidiary Joint Venture</option>
             </select>
           </div>
-          <button type="submit" class="btn primary" style="width: 100%; margin-top: 10px;">
+          <button type="submit" class="btn primary" style="width: 100%; margin-top: 10px;" data-i18n="modal.submit">
             Submit Confidential Request
           </button>
         </form>
@@ -2432,9 +2677,9 @@
 
       <div id="modal-success-view" class="modal-success">
         <div class="check">✓</div>
-        <h3>Request Received</h3>
-        <p>The Founding Governor's Office has logged your credentialed enquiry. A confidential prospectus and encrypted transmission will be dispatched to your registered address within 24 hours.</p>
-        <button type="button" class="btn gold" id="modal-done-btn" style="margin-top: 24px;">
+        <h3 data-i18n="modal.successHeading">Request Received</h3>
+        <p data-i18n="modal.successBody">The Founding Governor's Office has logged your credentialed enquiry. A confidential prospectus and encrypted transmission will be dispatched to your registered address within 24 hours.</p>
+        <button type="button" class="btn gold" id="modal-done-btn" style="margin-top: 24px;" data-i18n="modal.returnLink">
           Return to Institute Charter
         </button>
       </div>
@@ -2672,5 +2917,6 @@
       });
     });
   </script>
+  <script src="/js/i18n.js"></script>
 </body>
 </html>
