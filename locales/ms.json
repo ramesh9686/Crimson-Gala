@@ -127,7 +127,7 @@
     "enquiryAdvisory": "Pertanyaan rangkaian penasihat",
     "enquiryPress": "Akhbar & media",
     "copyright": "© 2026–2027 Institut Kepimpinan Crimson. Hak cipta terpelihara.",
-    "subtext": "crimsonleadershipinstitute.org · Piagam induk kepada crimsonleadershipinstitute.com",
+    "subtext": "crimsonleadershipinstitute.org · Piagam induk kepada crimsonholdings.org",
     "backToTop": "Kembali ke Atas"
   },
   "modal": {
@@ -144,7 +144,7 @@
     "placeholders": {
       "name": "cth. T.Y.T. Duta / Dr. / Pengarah",
       "org": "cth. Dana Kekayaan Berdaulat / Kumpulan Perusahaan",
-      "email": "office@organization.com"
+      "email": "office@organization.org"
     },
     "focusOptions": {
       "foundingPartner": "Rakan Pengasas & Tuan Rumah Bersama",

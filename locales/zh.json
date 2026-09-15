@@ -127,7 +127,7 @@
     "enquiryAdvisory": "顾问网络事务联络",
     "enquiryPress": "媒体与公共关系",
     "copyright": "© 2026–2027 克里姆森领导力学院。保留所有权利。",
-    "subtext": "crimsonleadershipinstitute.org · crimsonleadershipinstitute.com 控股母约特许实体",
+    "subtext": "crimsonleadershipinstitute.org · crimsonholdings.org 控股母约特许实体",
     "backToTop": "返回页首"
   },
   "modal": {
@@ -144,7 +144,7 @@
     "placeholders": {
       "name": "例如：大使阁下 / 博士 / 董事长",
       "org": "例如：主权财富基金 / 跨国企业集团",
-      "email": "office@organization.com"
+      "email": "office@organization.org"
     },
     "focusOptions": {
       "foundingPartner": "创始合伙人兼联席主办方",

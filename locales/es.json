@@ -127,7 +127,7 @@
     "enquiryAdvisory": "Inscripción en Red Consultiva",
     "enquiryPress": "Prensa y Comunicación",
     "copyright": "© 2026–2027 Instituto Crimson de Liderazgo. Todos los derechos reservados.",
-    "subtext": "crimsonleadershipinstitute.org · Estatuto matriz rector de crimsonleadershipinstitute.com",
+    "subtext": "crimsonleadershipinstitute.org · Estatuto matriz rector de crimsonholdings.org",
     "backToTop": "Subir al inicio"
   },
   "modal": {
@@ -144,7 +144,7 @@
     "placeholders": {
       "name": "ej. Excmo. Sr. Embajador / Dr. / Director General",
       "org": "ej. Fondo Soberano / Consorcio Empresarial",
-      "email": "despacho@organizacion.com"
+      "email": "despacho@organizacion.org"
     },
     "focusOptions": {
       "foundingPartner": "Socio Fundador y Coanfitrión",

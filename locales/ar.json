@@ -127,7 +127,7 @@
     "enquiryAdvisory": "استفسارات الشبكة الاستشارية",
     "enquiryPress": "الإعلام والصحافة",
     "copyright": "© 2026–2027 معهد كريمسون للقيادة. جميع الحقوق محفوظة.",
-    "subtext": "crimsonleadershipinstitute.org · الميثاق الحاكم لـ crimsonleadershipinstitute.com",
+    "subtext": "crimsonleadershipinstitute.org · الميثاق الحاكم لـ crimsonholdings.org",
     "backToTop": "العودة إلى الأعلى"
   },
   "modal": {
@@ -144,7 +144,7 @@
     "placeholders": {
       "name": "مثال: سعادة السفير / د. / المدير التنفيذي",
       "org": "مثال: صندوق ثروة سيادي / مجموعة استثمارية",
-      "email": "office@organization.com"
+      "email": "office@organization.org"
     },
     "focusOptions": {
       "foundingPartner": "شريك مؤسس ومستضيف مشارك",

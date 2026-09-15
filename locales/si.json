@@ -127,7 +127,7 @@
     "enquiryAdvisory": "උපදේශක ජාල විමසීම්",
     "enquiryPress": "මාධ්‍ය සහ ප්‍රවෘත්ති",
     "copyright": "© 2026–2027 ක්‍රිම්සන් නායකත්ව ආයතනය. සියලු හිමිකම් ඇවිරිණි.",
-    "subtext": "crimsonleadershipinstitute.org · crimsonleadershipinstitute.com පාලනය කරන ප්‍රධාන ප්‍රඥප්තිය",
+    "subtext": "crimsonleadershipinstitute.org · crimsonholdings.org පාලනය කරන ප්‍රධාන ප්‍රඥප්තිය",
     "backToTop": "ඉහළට යන්න"
   },
   "modal": {
@@ -144,7 +144,7 @@
     "placeholders": {
       "name": "උදා: තානාපති උතුමාණන් / ආචාර්ය / අධ්‍යක්ෂ",
       "org": "උදා: ස්වෛරී ධන අරමුදල / ව්‍යාපාරික සමූහය",
-      "email": "office@organization.com"
+      "email": "office@organization.org"
     },
     "focusOptions": {
       "foundingPartner": "ආරම්භක හවුල්කරු සහ සම-සත්කාරක",

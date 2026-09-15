@@ -127,7 +127,7 @@
     "enquiryAdvisory": "ஆலோசனை நெட்வொர்க் விசாரணைகள்",
     "enquiryPress": "ஊடகம் மற்றும் பத்திரிகை",
     "copyright": "© 2026–2027 கிரிம்சன் தலைமைத்துவ நிறுவனம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-    "subtext": "crimsonleadershipinstitute.org · crimsonleadershipinstitute.com இன் முதன்மைப் பட்டய அமைப்பு",
+    "subtext": "crimsonleadershipinstitute.org · crimsonholdings.org இன் முதன்மைப் பட்டய அமைப்பு",
     "backToTop": "மேலே செல்லவும்"
   },
   "modal": {
@@ -144,7 +144,7 @@
     "placeholders": {
       "name": "எ.கா. மேதகு தூதர் / டாக்டர் / இயக்குநர்",
       "org": "எ.கா. அரசு முதலீட்டு நிதி / பெருநிறுவனக் குழுமம்",
-      "email": "office@organization.com"
+      "email": "office@organization.org"
     },
     "focusOptions": {
       "foundingPartner": "நிறுவனக் கூட்டாளர் மற்றும் இணை புரவலர்",

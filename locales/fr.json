@@ -127,7 +127,7 @@
     "enquiryAdvisory": "Candidatures Conseil Consultatif",
     "enquiryPress": "Presse & Médias",
     "copyright": "© 2026–2027 Institut Crimson de Leadership. Tous droits réservés.",
-    "subtext": "crimsonleadershipinstitute.org · Charte mère régissant crimsonleadershipinstitute.com",
+    "subtext": "crimsonleadershipinstitute.org · Charte mère régissant crimsonholdings.org",
     "backToTop": "Haut de page"
   },
   "modal": {
@@ -144,7 +144,7 @@
     "placeholders": {
       "name": "ex. S.E. l'Ambassadeur / Dr / Directeur Général",
       "org": "ex. Fonds Souverain / Groupe d'Investissement",
-      "email": "bureau@organisation.com"
+      "email": "bureau@organisation.org"
     },
     "focusOptions": {
       "foundingPartner": "Partenaire Fondateur & Co-Hôte",
