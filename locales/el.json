@@ -127,7 +127,7 @@
     "enquiryAdvisory": "Ενδιαφέρον Συμβουλευτικού Δικτύου",
     "enquiryPress": "Τύπος & Επικοινωνία",
     "copyright": "© 2026–2027 Ινστιτούτο Ηγεσίας Crimson. Με επιφύλαξη παντός δικαιώματος.",
-    "subtext": "crimsonleadershipinstitute.org · Μητρικό καταστατικό του crimsonholdings.org",
+    "subtext": "crimsonleadershipinstitute.org · Μητρικό καταστατικό του crimsonleadershipinstitute.com",
     "backToTop": "Επιστροφή στην κορυφή"
   },
   "modal": {
@@ -144,7 +144,7 @@
     "placeholders": {
       "name": "π.χ. Α.Ε. Πρέσβης / Δρ. / Γενικός Διευθυντής",
       "org": "π.χ. Κρατικό Επενδυτικό Ταμείο / Όμιλος Επιχειρήσεων",
-      "email": "office@organization.org"
+      "email": "office@organization.com"
     },
     "focusOptions": {
       "foundingPartner": "Ιδρυτικός Εταίρος & Συνδιοργανωτής",

@@ -127,7 +127,7 @@
     "enquiryAdvisory": "Adesioni Rete Consultiva",
     "enquiryPress": "Relazioni con la Stampa",
     "copyright": "© 2026–2027 Istituto Crimson di Leadership. Tutti i diritti riservati.",
-    "subtext": "crimsonleadershipinstitute.org · Carta istitutiva di crimsonholdings.org",
+    "subtext": "crimsonleadershipinstitute.org · Carta istitutiva di crimsonleadershipinstitute.com",
     "backToTop": "Torna all'inizio"
   },
   "modal": {
@@ -144,7 +144,7 @@
     "placeholders": {
       "name": "es. S.E. Ambasciatore / Dott. / Direttore",
       "org": "es. Fondo Sovrano / Gruppo Aziendale",
-      "email": "ufficio@organizzazione.org"
+      "email": "ufficio@organizzazione.com"
     },
     "focusOptions": {
       "foundingPartner": "Partner Fondatore e Co-Organizzatore",

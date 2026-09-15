@@ -127,7 +127,7 @@
     "enquiryAdvisory": "Informações sobre a Rede Consultiva",
     "enquiryPress": "Imprensa e Relações Públicas",
     "copyright": "© 2026–2027 Instituto Crimson de Liderança. Todos os direitos reservados.",
-    "subtext": "crimsonleadershipinstitute.org · Carta matriz que institui a crimsonholdings.org",
+    "subtext": "crimsonleadershipinstitute.org · Carta matriz que institui a crimsonleadershipinstitute.com",
     "backToTop": "Voltar ao topo"
   },
   "modal": {
@@ -144,7 +144,7 @@
     "placeholders": {
       "name": "ex. S. Exa. o Embaixador / Dr. / Diretor Geral",
       "org": "ex. Fundo Soberano / Conglomerado Empresarial",
-      "email": "gabinete@organizacao.org"
+      "email": "gabinete@organizacao.com"
     },
     "focusOptions": {
       "foundingPartner": "Parceiro Fundador e Coanfitrião",
