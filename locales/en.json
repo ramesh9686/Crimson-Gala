@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "Crimson Leadership Institute — Chartered Platform for Global Leadership",
-    "description": "The Crimson Leadership Institute convenes governance expertise, capital, and cultural platforms under a single charter — spanning a global advisory network, operating ventures, and the 2027 Singapore Summit & Gala."
+    "title": "Crimson Leadership Summit and Gala — Chartered Platform for Global Leadership",
+    "description": "The Crimson Leadership Summit and Gala convenes governance expertise, capital, and cultural platforms under a single charter — spanning a global advisory network, operating ventures, and the 2027 Singapore Summit & Gala."
   },
   "nav": {
-    "brandAria": "Crimson Leadership Institute Homepage",
+    "brandAria": "Crimson Leadership Summit and Gala Homepage",
     "brandName": "Crimson",
     "brandEmphasis": "Leadership",
-    "brandSuffix": "Institute",
+    "brandSuffix": "Summit and Gala",
     "philosophy": "Philosophy",
     "network": "Network",
     "ventures": "Ventures",
@@ -21,10 +21,10 @@
     "kickerTag": "MMXXVII",
     "headlinePart1": "Institutions endure.",
     "headlinePart2": "Influence follows.",
-    "sub": "The Crimson Leadership Institute convenes governance expertise, capital, and cultural platforms under a single charter — spanning a global advisory network, a portfolio of operating ventures, and a diplomacy-grade summit built for 2027.",
+    "sub": "The Crimson Leadership Summit and Gala convenes governance expertise, capital, and cultural platforms under a single charter — spanning a global advisory network, a portfolio of operating ventures, and a diplomacy-grade summit built for 2027.",
     "ctaPortfolio": "View the portfolio",
     "ctaReel": "Watch Premiere Reel",
-    "sealAria": "Official charter seal of the Crimson Leadership Institute",
+    "sealAria": "Official charter seal of the Crimson Leadership Summit and Gala",
     "sealMotto": "Chartered",
     "sealTitle1": "Crimson",
     "sealTitle2": "Institute",
@@ -40,14 +40,14 @@
     "soundMuted": "Sound Muted",
     "soundLive": "Sound Live",
     "fullscreenAria": "Toggle Fullscreen",
-    "caption": "Crimson Leadership Institute — Vision, Governance & Global Convening",
+    "caption": "Crimson Leadership Summit and Gala — Vision, Governance & Global Convening",
     "specs": "HQ SINGAPORE • DUBAI • MILAN"
   },
   "philosophy": {
     "eyebrow": "01 — Philosophy",
     "heading": "Leadership is built like an institution, not a brand.",
     "quote": "\"Authority is earned through structure — governance, network, and follow-through — long before it is claimed through messaging.\"",
-    "quoteAttribution": "— Founding Charter, Crimson Leadership Institute",
+    "quoteAttribution": "— Founding Charter, Crimson Leadership Summit and Gala",
     "docLabel": "INSTITUTIONAL DOCTRINE",
     "docText": "Every entity under the Institute is chartered, not improvised: a defined mandate, a named governance line, and a measurable outcome.",
     "body1": "The Institute exists to give durable form to leadership work that would otherwise stay informal — advisory relationships, capital structures, and convenings that shape how industries and governments engage with one another.",
@@ -91,7 +91,7 @@
     "eyebrow": "04 — Governance",
     "heading": "Chartered under a single founding office.",
     "founderName": "Prof. N. Nadeem",
-    "founderTitle": "Founder, Crimson Leadership Institute",
+    "founderTitle": "Founder, Crimson Leadership Summit and Gala",
     "stat1Value": "33",
     "stat1Label": "Years in institution-building and education leadership, with an unblemished record",
     "stat2Value": "3",
@@ -117,7 +117,7 @@
   "footer": {
     "wordmark1": "Crimson",
     "wordmark2": "Leadership",
-    "wordmark3": "Institute",
+    "wordmark3": "Summit and Gala",
     "tagline": "A chartered platform for global leadership — governance, capital, and convening, under one founding office.",
     "entitiesHeading": "ENTITIES",
     "holdingLink": "Crimson Holding",
@@ -126,7 +126,7 @@
     "enquiryFounding": "Founding Partner enquiries",
     "enquiryAdvisory": "Advisory network enquiries",
     "enquiryPress": "Press & media",
-    "copyright": "© 2026–2027 Crimson Leadership Institute. All rights reserved.",
+    "copyright": "© 2026–2027 Crimson Leadership Summit and Gala. All rights reserved.",
     "subtext": "crimsonleadershipinstitute.org · Parent charter of crimsonholding.com",
     "backToTop": "Back to Top"
   },

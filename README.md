@@ -1,4 +1,4 @@
-# Crimson Leadership Institute — Multilingual i18n
+# Crimson Leadership Summit and Gala — Multilingual i18n
 
 Chartered Platform for Global Leadership.
 
