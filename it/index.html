@@ -179,10 +179,13 @@
       border-bottom-color: rgba(197, 160, 89, 0.35);
     }
 
-    nav.wrap {
+    header nav.wrap {
+      max-width: 1400px;
+      padding: 0 36px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 32px;
       height: 84px;
     }
 
@@ -215,11 +218,12 @@
     .wordmark {
       font-family: var(--font-cinzel);
       font-weight: 600;
-      font-size: 1rem;
-      letter-spacing: 0.06em;
+      font-size: 0.94rem;
+      letter-spacing: 0.05em;
       color: var(--ink);
       text-transform: uppercase;
       white-space: nowrap;
+      flex-shrink: 0;
     }
 
     .wordmark em {
@@ -229,15 +233,16 @@
       letter-spacing: normal;
       color: var(--crimson-imperial);
       font-weight: 500;
-      font-size: 1.25rem;
-      margin-left: 2px;
+      font-size: 1.16rem;
+      margin: 0 3px;
     }
 
     .navlinks {
       display: flex;
-      gap: 30px;
-      font-size: 0.88rem;
+      gap: 24px;
+      font-size: 0.82rem;
       letter-spacing: 0.04em;
+      flex-shrink: 0;
       text-transform: uppercase;
       font-family: var(--font-cinzel);
       font-weight: 500;
@@ -345,7 +350,17 @@
       transition: var(--transition-smooth);
     }
 
-    @media (max-width: 900px) {
+    @media (max-width: 1200px) {
+      .navlinks {
+        gap: 16px;
+        font-size: 0.78rem;
+      }
+      .wordmark {
+        font-size: 0.88rem;
+      }
+    }
+
+    @media (max-width: 1080px) {
       .navlinks { display: none; }
       .mobile-menu-btn { display: flex; }
     }
