@@ -1,6 +1,8 @@
 {
   "cleanUrls": true,
   "rewrites": [
+    { "source": "/institute", "destination": "/institute/index.html" },
+    { "source": "/institute.html", "destination": "/institute/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
