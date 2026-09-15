@@ -102,15 +102,15 @@
     "body2": "That same discipline governs Crimson Holding's regional subsidiaries and the Crimson Global Summit & Gala: a founding charter, a governance framework, and a named accountability line for every initiative the Institute puts its name to.",
     "officeTitle": "OFFICE OF THE FOUNDING GOVERNOR",
     "officeDesc": "Direct oversight over global partnerships, summit curations, and capital alliances.",
-    "appointmentsLabel": "CHARTERED APPOINTMENTS • EUROPE",
+    "appointmentsLabel": "CHARTERED APPOINTMENTS • ITALY",
     "appointment1": {
-      "region": "Europe • Milan",
+      "region": "Italy • Milan",
       "name": "Alberto Righini",
       "role": "Founder, Flash Models Milan (1985)"
     },
     "appointment2": {
-      "region": "Europe • Italy",
-      "name": "Max",
+      "region": "Italy • Milan",
+      "name": "Max Martorana",
       "role": "Show Production, Italy"
     }
   },

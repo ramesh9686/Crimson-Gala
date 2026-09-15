@@ -102,15 +102,15 @@
     "body2": "La medesima disciplina permea l'operato delle filiali di Crimson Holding: principi statutari chiari, criteri di trasparenza e una precisa linea di responsabilità per ogni iniziativa che porti il nome dell'Istituto.",
     "officeTitle": "UFFICIO DEL GOVERNATORE FONDATORE",
     "officeDesc": "Supervisione diretta e costante su partenariati mondiali, curatela dei vertici e grandi alleanze di capitale.",
-    "appointmentsLabel": "NOMINE STATUTARIE • EUROPA",
+    "appointmentsLabel": "NOMINE STATUTARIE • ITALIA",
     "appointment1": {
-      "region": "Europa • Milano",
+      "region": "Italia • Milano",
       "name": "Alberto Righini",
       "role": "Fondatore, Flash Models Milano (1985)"
     },
     "appointment2": {
-      "region": "Europa • Italia",
-      "name": "Max",
+      "region": "Italia • Milano",
+      "name": "Max Martorana",
       "role": "Direzione di Produzione Spettacoli, Italia"
     }
   },

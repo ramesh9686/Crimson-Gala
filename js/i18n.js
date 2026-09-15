@@ -74,7 +74,7 @@ async function loadLocale(lang) {
   }
 
   try {
-    const res = await fetch(`/locales/${targetLang}.json`);
+    const res = await fetch(`/locales/${targetLang}.json?v=${Date.now()}`);
     if (!res.ok) throw new Error(`HTTP error ${res.status}`);
     const data = await res.json();
     localeCache[targetLang] = data;

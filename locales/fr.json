@@ -102,15 +102,15 @@
     "body2": "Cette même exigence régit les filiales de Crimson Holding et les grands rendez-vous de l'Institut : charte fondatrice, transparence institutionnelle et imputabilité nominale pour chaque projet engagé.",
     "officeTitle": "BUREAU DU GOUVERNEUR FONDATEUR",
     "officeDesc": "Supervision directe des alliances internationales, de la programmation des sommets et des engagements de capitaux.",
-    "appointmentsLabel": "NOMINATIONS PAR CHARTE • EUROPE",
+    "appointmentsLabel": "NOMINATIONS PAR CHARTE • ITALIE",
     "appointment1": {
-      "region": "Europe • Milan",
+      "region": "Italie • Milan",
       "name": "Alberto Righini",
       "role": "Fondateur, Flash Models Milan (1985)"
     },
     "appointment2": {
-      "region": "Europe • Italie",
-      "name": "Max",
+      "region": "Italie • Milan",
+      "name": "Max Martorana",
       "role": "Directeur de Production d'Événements, Italie"
     }
   },
